@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wi-Fi 7 Field Study — Scenario Browser (WIP)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4f1ea;
+  --paper-dark:#ebe6d9;
+  --ink:#1a1814;
+  --ink-soft:#3d3830;
+  --ink-fade:#6b6359;
+  --rule:#c9c1ae;
+  --accent:#c1440e;
+  --accent-soft:#e87c4a;
+  --good:#3a6e3a;
+  --bad:#9a2222;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:'Inter',system-ui,sans-serif;
+  font-size:16px;
+  line-height:1.55;
+  font-feature-settings:"ss01","cv11";
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(193,68,14,0.04) 0, transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(58,110,58,0.03) 0, transparent 40%);
+  background-attachment:fixed;
+  min-height:100vh;
+}
+
+.wrap{max-width:1100px;margin:0 auto;padding:0 32px}
+@media(max-width:640px){.wrap{padding:0 20px}}
+
+/* header */
+header{
+  border-bottom:1px solid var(--rule);
+  padding:24px 0;
+}
+.brand{font-family:'Fraunces',serif;font-weight:600;font-size:18px;letter-spacing:-0.01em}
+.brand span{color:var(--accent)}
+
+/* hero */
+.hero{padding:64px 0 40px;border-bottom:1px solid var(--rule)}
+.eyebrow{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--accent);margin-bottom:20px;
+  display:flex;align-items:center;gap:12px;
+}
+.eyebrow::before{content:"";width:32px;height:1px;background:var(--accent)}
+.wip-badge{
+  display:inline-block;
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;letter-spacing:0.15em;text-transform:uppercase;
+  color:var(--accent);
+  background:#fef3e0;
+  border:1px solid var(--accent-soft);
+  padding:4px 10px;
+  border-radius:2px;
+  margin-bottom:20px;
+}
+h1.title{
+  font-family:'Fraunces',serif;
+  font-weight:300;
+  font-size:clamp(36px,5.5vw,64px);
+  line-height:1.05;
+  letter-spacing:-0.025em;
+  margin-bottom:24px;
+}
+h1.title em{font-style:italic;font-weight:400;color:var(--accent)}
+.hero p.lead{
+  font-family:'Fraunces',serif;
+  font-size:clamp(17px,1.8vw,20px);
+  line-height:1.55;
+  max-width:740px;
+  color:var(--ink-soft);
+  font-weight:400;
+}
+.byline{
+  margin-top:32px;
+  font-size:13px;
+  color:var(--ink-fade);
+  font-family:'JetBrains Mono',monospace;
+  display:flex;gap:32px;flex-wrap:wrap;
+}
+.byline strong{color:var(--ink);font-weight:500}
+
+/* main section */
+.main-section{padding:56px 0}
+.section-head{margin-bottom:32px;max-width:780px}
+h2{
+  font-family:'Fraunces',serif;
+  font-weight:400;
+  font-size:clamp(26px,3.5vw,38px);
+  line-height:1.1;letter-spacing:-0.02em;
+  margin-bottom:16px;
+}
+h2 .num{
+  font-family:'JetBrains Mono',monospace;
+  font-size:14px;font-weight:400;
+  color:var(--accent);
+  letter-spacing:0.1em;
+  display:block;margin-bottom:12px;
+}
+.section-head p{color:var(--ink-soft);font-size:16px;max-width:680px}
+
+/* scenario filter */
+.controls{
+  display:flex;flex-wrap:wrap;gap:12px;
+  padding:20px;
+  background:var(--paper-dark);
+  border:1px solid var(--rule);
+  margin-bottom:24px;
+  align-items:center;
+}
+.controls label{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--ink-fade);
+}
+.controls select,.controls input{
+  font-family:'JetBrains Mono',monospace;
+  font-size:13px;
+  padding:6px 10px;
+  background:var(--paper);
+  border:1px solid var(--rule);
+  color:var(--ink);
+  cursor:pointer;
+}
+.controls select:focus,.controls input:focus{outline:none;border-color:var(--accent)}
+.count-badge{
+  margin-left:auto;
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;color:var(--ink-fade);
+  letter-spacing:0.05em;
+}
+
+/* scenarios table */
+.scenario-grid{display:flex;flex-direction:column;gap:0;border:1px solid var(--rule)}
+.scenario-row{
+  display:grid;
+  grid-template-columns:1fr 110px 110px 130px;
+  gap:16px;
+  padding:18px 20px;
+  border-bottom:1px solid var(--rule);
+  background:var(--paper);
+  align-items:center;
+  cursor:pointer;
+  transition:background .15s;
+}
+.scenario-row:last-child{border-bottom:none}
+.scenario-row:hover{background:var(--paper-dark)}
+.scenario-row.expanded{background:var(--paper-dark)}
+.scenario-meta{display:flex;flex-direction:column;gap:4px;min-width:0}
+.scenario-title{
+  font-family:'Fraunces',serif;font-weight:500;font-size:16px;
+  letter-spacing:-0.01em;
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+}
+.scenario-tags{display:flex;gap:6px;flex-wrap:wrap;font-size:11px}
+.tag-chip{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;
+  padding:2px 8px;
+  background:var(--paper-dark);
+  border:1px solid var(--rule);
+  color:var(--ink-soft);
+  letter-spacing:0.05em;
+  border-radius:2px;
+}
+.tag-chip.mlo{background:#fef3e0;border-color:var(--accent-soft);color:var(--accent)}
+.tag-chip.wired{background:#e8efe4;border-color:#7ba274;color:var(--good)}
+.scenario-num{
+  font-family:'Fraunces',serif;
+  font-weight:400;
+  font-size:24px;
+  letter-spacing:-0.02em;
+  color:var(--ink);
+  text-align:right;
+}
+.scenario-num small{font-size:11px;color:var(--ink-fade);font-family:'JetBrains Mono',monospace;display:block;letter-spacing:0.05em}
+.scenario-link{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;
+  color:var(--ink-fade);
+  text-align:right;
+  letter-spacing:0.05em;
+}
+.scenario-bar{
+  position:relative;
+  height:8px;
+  background:var(--paper-dark);
+  border:1px solid var(--rule);
+}
+.scenario-bar-fill{
+  height:100%;
+  background:var(--accent);
+  transition:width .3s;
+}
+.scenario-bar-fill.bad{background:var(--bad)}
+.scenario-bar-fill.good{background:var(--good)}
+@media(max-width:720px){
+  .scenario-row{grid-template-columns:1fr 90px;gap:12px}
+  .scenario-row > :nth-child(3),.scenario-row > :nth-child(4){display:none}
+}
+
+/* expanded details */
+.detail{
+  padding:24px 20px 28px;
+  background:var(--paper-dark);
+  border-bottom:1px solid var(--rule);
+  display:none;
+}
+.detail.open{display:block}
+.detail-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:16px;
+}
+.detail-stat{
+  border-left:2px solid var(--accent);
+  padding-left:12px;
+}
+.detail-stat .v{
+  font-family:'Fraunces',serif;font-size:22px;font-weight:500;line-height:1;
+}
+.detail-stat .v small{font-size:11px;color:var(--ink-fade);font-family:'JetBrains Mono',monospace;font-weight:400;margin-left:4px}
+.detail-stat .l{
+  font-family:'JetBrains Mono',monospace;font-size:10px;
+  color:var(--ink-fade);text-transform:uppercase;letter-spacing:0.1em;
+  margin-top:6px;
+}
+
+/* ======================================================================
+   RSSI VISIBILITY TOGGLE
+   ------------------------------------------------------------------
+   RSSI fields are rendered into the DOM but hidden by default.
+   To reveal them later (once data collection is complete), do ONE
+   of the following:
+     1. Remove the `display:none` rule below, OR
+     2. Add the class `show-rssi` to <body>, OR
+     3. In the browser console: document.body.classList.add('show-rssi')
+   ====================================================================== */
+.detail-stat.rssi{display:none}
+body.show-rssi .detail-stat.rssi{display:block}
+
+/* footer */
+footer{
+  padding:32px 0 48px;
+  border-top:1px solid var(--rule);
+  margin-top:64px;
+}
+footer .wrap{
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:24px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:12px;
+  color:var(--ink-fade);
+  letter-spacing:0.05em;
+}
+footer a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+footer a:hover{border-color:var(--accent)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">Wi-Fi 7 <span>·</span> Field Study</div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="hero">
+    <div class="eyebrow">Capstone Project · Bachelor of Engineering · 2026</div>
+    <span class="wip-badge">⚠ Work in Progress</span>
+    <h1 class="title">Wi&#8209;Fi&nbsp;7 <em>scenario</em> browser.</h1>
+    <p class="lead">Early preview of measurement results from an ongoing field study of IEEE 802.11be (Wi-Fi 7). Currently shows the per-scenario aggregate browser — methodology writeup, findings, and degradation analysis are still being prepared.</p>
+    <div class="byline">
+      <span><strong>Status</strong> Data collection complete</span>
+      <span><strong>Runs</strong> 779 measured</span>
+      <span><strong>Scenarios</strong> 76 distinct</span>
+      <span><strong>Next</strong> Findings &amp; analysis</span>
+    </div>
+  </div>
+
+  <section class="main-section" id="scenarios">
+    <div class="section-head">
+      <h2><span class="num">§ Scenarios</span>Browse 76 test scenarios</h2>
+      <p>Filter by environment, band, mode, or connection. Click any row to expand and see mean throughput, standard deviation, range, link rate, PHY efficiency, and interference metrics. The bar at right shows mean throughput scaled against the maximum measured (≈ 1488 Mbps).</p>
+    </div>
+
+    <div class="controls">
+      <label>Env</label>
+      <select id="filterEnv"><option value="">All</option></select>
+      <label>Band</label>
+      <select id="filterBand"><option value="">All</option></select>
+      <label>Mode</label>
+      <select id="filterMode"><option value="">All</option></select>
+      <label>Conn</label>
+      <select id="filterConn"><option value="">All</option></select>
+      <label>Sort</label>
+      <select id="sortBy">
+        <option value="env">By Environment</option>
+        <option value="avg-desc">Throughput ↓</option>
+        <option value="avg-asc">Throughput ↑</option>
+        <option value="distance">By Distance</option>
+      </select>
+      <span class="count-badge" id="countBadge"></span>
+    </div>
+
+    <div class="scenario-grid" id="scenarioGrid"></div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>BE Capstone · 2026 · Work in progress</span>
+    <span>Full report &amp; findings · coming soon</span>
+  </div>
+</footer>
+
+<script>
+const MAX_THROUGHPUT = 1500;
+
+let scenarios = [];
+let filtered = [];
+
+async function loadData(){
+  try{
+    const res = await fetch('data.json');
+    const d = await res.json();
+    scenarios = d.scenarios;
+    populateFilters();
+    applyFilters();
+  }catch(e){
+    document.getElementById('scenarioGrid').innerHTML =
+      '<div style="padding:24px;color:#6b6359;font-family:JetBrains Mono,monospace;font-size:13px">Could not load data.json — make sure it is alongside index.html and the page is served via a web server (not opened directly).</div>';
+  }
+}
+
+function populateFilters(){
+  const uniq = (arr) => [...new Set(arr)].filter(Boolean).sort();
+  fillSelect('filterEnv', uniq(scenarios.map(s=>s.env)));
+  fillSelect('filterBand', uniq(scenarios.map(s=>s.band)));
+  fillSelect('filterMode', uniq(scenarios.map(s=>s.mode)));
+  fillSelect('filterConn', uniq(scenarios.map(s=>s.conn)));
+  ['filterEnv','filterBand','filterMode','filterConn','sortBy'].forEach(id => {
+    document.getElementById(id).addEventListener('change', applyFilters);
+  });
+}
+
+function fillSelect(id, vals){
+  const sel = document.getElementById(id);
+  vals.forEach(v => {
+    const o = document.createElement('option');
+    o.value = v; o.textContent = v;
+    sel.appendChild(o);
+  });
+}
+
+function applyFilters(){
+  const env = document.getElementById('filterEnv').value;
+  const band = document.getElementById('filterBand').value;
+  const mode = document.getElementById('filterMode').value;
+  const conn = document.getElementById('filterConn').value;
+  const sort = document.getElementById('sortBy').value;
+
+  filtered = scenarios.filter(s =>
+    (!env || s.env === env) &&
+    (!band || s.band === band) &&
+    (!mode || s.mode === mode) &&
+    (!conn || s.conn === conn)
+  );
+
+  if (sort === 'avg-desc') filtered.sort((a,b)=>b.avg-a.avg);
+  else if (sort === 'avg-asc') filtered.sort((a,b)=>a.avg-b.avg);
+  else if (sort === 'distance') filtered.sort((a,b)=>a.distance-b.distance);
+  else filtered.sort((a,b)=>{
+    const c = a.env.localeCompare(b.env);
+    if (c) return c;
+    const c2 = a.band.localeCompare(b.band);
+    if (c2) return c2;
+    return a.distance - b.distance;
+  });
+
+  document.getElementById('countBadge').textContent = `${filtered.length} of ${scenarios.length} scenarios`;
+  render();
+}
+
+function render(){
+  const grid = document.getElementById('scenarioGrid');
+  grid.innerHTML = '';
+  filtered.forEach((s, i) => {
+    const pct = Math.min(100, (s.avg / MAX_THROUGHPUT) * 100);
+    let barClass = '';
+    if (s.avg < 100) barClass = 'bad';
+    else if (s.avg > 1000) barClass = 'good';
+
+    const row = document.createElement('div');
+    row.className = 'scenario-row';
+    row.dataset.idx = i;
+
+    // Build descriptive scenario title.
+    // Location is the part before "-" in env (e.g. "Home-LOS" -> "Home").
+    // LOS  : (Location)-LOS (Band) (Distance)
+    // Wall : (Location)-(N) (Material) (Band) (Distance)
+    const location = s.env.split('-')[0];
+    const obstruction = s.material
+      ? `${s.walls}×${s.material}`
+      : 'LOS';
+    const titleText = `${location}-${obstruction} ${s.band} ${s.distance}m`;
+
+    // Chips: only show things that aren't already in the title
+    const tags = [];
+    if (s.mode === 'MLO') tags.push('<span class="tag-chip mlo">MLO</span>');
+    if (s.conn === 'Wired') tags.push('<span class="tag-chip wired">Wired</span>');
+    tags.push(`<span class="tag-chip">${s.width}MHz · ${s.streams}-stream</span>`);
+
+    row.innerHTML = `
+      <div class="scenario-meta">
+        <div class="scenario-title">${titleText}</div>
+        <div class="scenario-tags">${tags.join('')}</div>
+      </div>
+      <div class="scenario-bar"><div class="scenario-bar-fill ${barClass}" style="width:${pct}%"></div></div>
+      <div class="scenario-num">${s.avg.toFixed(0)}<small>Mbps avg</small></div>
+      <div class="scenario-link">${s.runs} runs ↓</div>
+    `;
+
+    const detail = document.createElement('div');
+    detail.className = 'detail';
+    const efficiency = (s.avg / s.linkRate * 100).toFixed(1);
+
+    const mloLine = s.hasMLO && s.mloSecondaryBand
+      ? `<div class="detail-stat"><div class="v">${s.mloSecondaryBand}</div><div class="l">MLO Link 2 Band</div></div>
+         <div class="detail-stat"><div class="v">${s.mloSecondaryRate.toFixed(0)}<small>Mbps</small></div><div class="l">Link 2 Rate</div></div>`
+      : '';
+
+    // --- RSSI block (hidden by default; toggled via body.show-rssi) ---
+    // Renders only if we actually have RSSI data for this scenario.
+    // The .rssi class is what the CSS toggle controls; data is always
+    // available in s.primaryRSSI / s.secondaryRSSI for future use.
+    let rssiBlock = '';
+    if (s.primaryRSSI !== null && s.primaryRSSI !== undefined) {
+      const stdPart = s.primaryRSSIstd !== null && s.primaryRSSIstd !== undefined
+        ? ` <small>±${s.primaryRSSIstd}</small>` : '';
+      rssiBlock += `<div class="detail-stat rssi"><div class="v">${s.primaryRSSI}<small>dBm</small>${stdPart}</div><div class="l">Primary RSSI</div></div>`;
+    }
+    if (s.secondaryRSSI !== null && s.secondaryRSSI !== undefined) {
+      rssiBlock += `<div class="detail-stat rssi"><div class="v">${s.secondaryRSSI}<small>dBm</small></div><div class="l">Secondary RSSI</div></div>`;
+    }
+
+    detail.innerHTML = `
+      <div class="detail-grid">
+        <div class="detail-stat"><div class="v">${s.avg.toFixed(1)}<small>Mbps</small></div><div class="l">Mean</div></div>
+        <div class="detail-stat"><div class="v">${s.std.toFixed(1)}<small>σ</small></div><div class="l">Std-dev</div></div>
+        <div class="detail-stat"><div class="v">${s.min.toFixed(0)} – ${s.max.toFixed(0)}</div><div class="l">Range (Mbps)</div></div>
+        <div class="detail-stat"><div class="v">${s.linkRate.toFixed(0)}<small>Mbps</small></div><div class="l">Link Rate (PHY)</div></div>
+        <div class="detail-stat"><div class="v">${efficiency}<small>%</small></div><div class="l">PHY Efficiency</div></div>
+        <div class="detail-stat"><div class="v">${s.cci.toFixed(0)} / ${s.aci.toFixed(0)}</div><div class="l">CCI / ACI</div></div>
+        <div class="detail-stat"><div class="v">${s.neighbors}</div><div class="l">Neighbour APs</div></div>
+        <div class="detail-stat"><div class="v">${s.runs}</div><div class="l">Runs</div></div>
+        ${mloLine}
+        ${rssiBlock}
+      </div>
+    `;
+
+    grid.appendChild(row);
+    grid.appendChild(detail);
+
+    row.addEventListener('click', () => {
+      const wasOpen = detail.classList.contains('open');
+      grid.querySelectorAll('.detail.open').forEach(d => d.classList.remove('open'));
+      grid.querySelectorAll('.scenario-row.expanded').forEach(r => r.classList.remove('expanded'));
+      if (!wasOpen){
+        detail.classList.add('open');
+        row.classList.add('expanded');
+      }
+    });
+  });
+}
+
+loadData();
+</script>
+
+</body>
+</html>

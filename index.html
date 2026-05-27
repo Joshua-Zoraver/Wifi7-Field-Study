@@ -484,6 +484,84 @@ h2 .num{
   border-left:2px solid var(--accent);
   padding-left:12px;
 }
+
+/* info tooltip */
+.detail-stat{
+  position:relative;
+}
+
+.info-btn{
+  position:absolute;
+  top:-2px;
+  right:-2px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  border:1px solid var(--rule);
+  background:var(--paper);
+  color:var(--ink-fade);
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;
+  line-height:1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  transition:
+    background .15s,
+    border-color .15s,
+    color .15s,
+    transform .15s;
+  z-index:2;
+}
+
+.info-btn:hover{
+  background:#fef3e0;
+  border-color:var(--accent-soft);
+  color:var(--accent);
+  transform:scale(1.05);
+}
+
+.info-tooltip{
+  position:absolute;
+  top:26px;
+  right:0;
+  width:240px;
+  padding:12px 14px;
+  background:var(--paper);
+  border:1px solid var(--rule);
+  box-shadow:0 8px 24px rgba(0,0,0,0.08);
+  font-size:12px;
+  line-height:1.5;
+  color:var(--ink-soft);
+  z-index:100;
+  opacity:0;
+  pointer-events:none;
+  transform:translateY(-4px);
+  transition:
+    opacity .18s ease,
+    transform .18s ease;
+}
+
+.info-tooltip strong{
+  color:var(--ink);
+  font-weight:600;
+}
+
+.detail-stat.show-tooltip .info-tooltip{
+  opacity:1;
+  pointer-events:auto;
+  transform:translateY(0);
+}
+
+@media(max-width:640px){
+  .info-tooltip{
+    width:200px;
+    right:auto;
+    left:0;
+  }
+}
+
 .detail-stat .v{
   font-family:'Fraunces',serif;font-size:22px;font-weight:500;line-height:1;
 }
@@ -883,10 +961,22 @@ function render(){
     detail.innerHTML = `
       <div class="detail-inner">
         <div class="detail-grid">
-          <div class="detail-stat"><div class="v">${s.avg.toFixed(1)}<small>Mbps</small></div><div class="l">Mean</div></div>
-          <div class="detail-stat"><div class="v">${s.std.toFixed(1)}<small>σ</small></div><div class="l">Std-dev</div></div>
+          <div class="detail-stat">
+            <button class="info-btn">i</button>
+            <div class="info-tooltip"><strong>Mean Throughput</strong><br><br>The average measured throughput across all runs. Higher is better.</div>
+            <div class="v">${s.avg.toFixed(1)}<small>Mbps</small></div><div class="l">Mean</div>
+          </div>
+          <div class="detail-stat">
+            <button class="info-btn">i</button>
+            <div class="info-tooltip"><strong>Standard Deviation</strong><br><br>Shows how consistent the runs were. Lower values mean more stable performance.</div>
+            <div class="v">${s.std.toFixed(1)}<small>σ</small></div><div class="l">Std-dev</div>
+          </div>
           <div class="detail-stat"><div class="v">${s.min.toFixed(0)} – ${s.max.toFixed(0)}</div><div class="l">Range (Mbps)</div></div>
-          <div class="detail-stat"><div class="v">${s.linkRate.toFixed(0)}<small>Mbps</small></div><div class="l">Link Rate (PHY)</div></div>
+          <div class="detail-stat">
+            <button class="info-btn">i</button>
+            <div class="info-tooltip"><strong>PHY Link Rate</strong><br><br>The negotiated wireless rate between the client and router. Real throughput is always lower due to overhead.</div>
+            <div class="v">${s.linkRate.toFixed(0)}<small>Mbps</small></div><div class="l">Link Rate (PHY)</div>
+          </div>
           <div class="detail-stat"><div class="v">${efficiency}<small>%</small></div><div class="l">PHY Efficiency</div></div>
           <div class="detail-stat"><div class="v">${s.cci.toFixed(0)} / ${s.aci.toFixed(0)}</div><div class="l">CCI / ACI</div></div>
           <div class="detail-stat"><div class="v">${s.neighbors}</div><div class="l">Neighbour APs</div></div>
@@ -900,7 +990,8 @@ function render(){
     grid.appendChild(row);
     grid.appendChild(detail);
 
-    row.addEventListener('click', () => {
+    row.addEventListener('click', (event) => {
+      if (event.target.closest('.info-btn')) return;
       const wasOpen = detail.classList.contains('open');
 
       // Close any *other* open rows. CSS handles the close animation.
@@ -955,6 +1046,30 @@ function updateActiveNav(){
 }
 window.addEventListener('scroll', updateActiveNav, {passive:true});
 updateActiveNav();
+
+
+// tooltip toggles
+document.addEventListener('click', (e) => {
+  const btn = e.target.closest('.info-btn');
+
+  if (!btn){
+    document.querySelectorAll('.detail-stat.show-tooltip')
+      .forEach(el => el.classList.remove('show-tooltip'));
+    return;
+  }
+
+  e.stopPropagation();
+
+  const stat = btn.closest('.detail-stat');
+
+  document.querySelectorAll('.detail-stat.show-tooltip')
+    .forEach(el => {
+      if (el !== stat) el.classList.remove('show-tooltip');
+    });
+
+  stat.classList.toggle('show-tooltip');
+});
+
 
 loadData();
 </script>

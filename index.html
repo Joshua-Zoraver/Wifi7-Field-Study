@@ -222,14 +222,28 @@ h2 .num{
 .help-toggle .arrow{display:inline-block;transition:transform .2s;margin-left:6px}
 .help-toggle.open .arrow{transform:rotate(180deg)}
 
+/* Help panel uses the same grid-rows animation pattern as detail rows */
 .help-panel{
-  display:none;
-  margin-bottom:24px;
-  padding:24px 28px;
-  border:1px solid var(--rule);
+  display:grid;
+  grid-template-rows:0fr;
+  transition:grid-template-rows .3s ease, margin-bottom .3s ease, border-width .3s ease;
+  margin-bottom:0;
+  border:0 solid var(--rule);
   background:var(--paper-dark);
 }
-.help-panel.open{display:block}
+.help-panel > .help-panel-inner{
+  overflow:hidden;
+  min-height:0;
+}
+.help-panel.open{
+  grid-template-rows:1fr;
+  margin-bottom:24px;
+  border-width:1px;
+}
+.help-panel.open > .help-panel-inner{
+  padding:24px 28px;
+}
+.help-panel-inner{padding:0 28px}
 .help-panel h3{
   font-family:'Fraunces',serif;
   font-weight:500;
@@ -318,22 +332,10 @@ h2 .num{
 }
 
 /* Custom scrollbar */
-.scenario-grid::-webkit-scrollbar{
-  width:10px;
-}
-
-.scenario-grid::-webkit-scrollbar-track{
-  background:var(--paper-dark);
-}
-
-.scenario-grid::-webkit-scrollbar-thumb{
-  background:var(--rule);
-  border-radius:6px;
-}
-
-.scenario-grid::-webkit-scrollbar-thumb:hover{
-  background:var(--ink-fade);
-}
+.scenario-grid::-webkit-scrollbar{ width:10px; }
+.scenario-grid::-webkit-scrollbar-track{ background:var(--paper-dark); }
+.scenario-grid::-webkit-scrollbar-thumb{ background:var(--rule); border-radius:6px; }
+.scenario-grid::-webkit-scrollbar-thumb:hover{ background:var(--ink-fade); }
 
 /* Scroll indicator */
 .scroll-indicator{
@@ -351,15 +353,12 @@ h2 .num{
   letter-spacing:0.08em;
   text-transform:uppercase;
 }
-
-.scroll-indicator .arrow{
-  animation:bounce 1.4s infinite;
-}
-
+.scroll-indicator .arrow{ animation:bounce 1.4s infinite; }
 @keyframes bounce{
   0%,100%{transform:translateY(0)}
   50%{transform:translateY(3px)}
 }
+
 .scenario-row{
   display:grid;
   grid-template-columns:1.4fr 130px 130px;
@@ -410,7 +409,6 @@ h2 .num{
 }
 .tag-chip.mlo{background:#fef3e0;border-color:var(--accent-soft);color:var(--accent)}
 .tag-chip.wired{background:#e8efe4;border-color:#7ba274;color:var(--good)}
-.scenario-row:hover .scenario-row.expanded .scenario-bar{background:var(--paper)}
 .scenario-num{
   font-family:'Fraunces',serif;
   font-weight:400;
@@ -438,14 +436,45 @@ h2 .num{
   .scenario-row > .scenario-bar{display:none}
 }
 
-/* expanded details */
+/* ======================================================================
+   EXPANDABLE DETAIL ROW — animated open/close on all rows
+   ----------------------------------------------------------------------
+   Uses the CSS grid-template-rows 0fr → 1fr trick to animate auto-height
+   without JS height measurement.
+
+   Structure:
+     <div class="detail">              ← the animating wrapper
+       <div class="detail-inner">      ← real content, overflow:hidden
+         ...stats...
+       </div>
+     </div>
+
+   Padding lives on .detail-inner (NOT .detail) so it collapses with the
+   row when closing. Border-bottom width also animates so the bottom
+   rule cleanly disappears as the panel folds away.
+   ====================================================================== */
 .detail{
-  padding:24px 20px 28px;
+  display:grid;
+  grid-template-rows:0fr;
   background:var(--paper-dark);
-  border-bottom:1px solid var(--rule);
-  display:none;
+  border-bottom:0 solid var(--rule);
+  transition:
+    grid-template-rows .32s ease,
+    border-bottom-width .32s ease;
 }
-.detail.open{display:block}
+.detail > .detail-inner{
+  overflow:hidden;
+  min-height:0;
+  padding:0 20px;
+  transition:padding .32s ease;
+}
+.detail.open{
+  grid-template-rows:1fr;
+  border-bottom-width:1px;
+}
+.detail.open > .detail-inner{
+  padding:24px 20px 28px;
+}
 .detail-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
@@ -468,6 +497,13 @@ h2 .num{
 /* RSSI visibility toggle (unchanged behaviour) */
 .detail-stat.rssi{display:none}
 body.show-rssi .detail-stat.rssi{display:block}
+
+/* Honour reduced-motion preferences */
+@media (prefers-reduced-motion: reduce){
+  .detail, .detail > .detail-inner,
+  .help-panel{ transition:none; }
+  .scroll-indicator .arrow{ animation:none; }
+}
 
 /* summary placeholder */
 .summary-pending{
@@ -589,15 +625,17 @@ footer a:hover{border-color:var(--accent)}
     </div>
 
     <div class="help-panel" id="helpPanel" role="region" aria-label="How to read the scenario table">
-      <h3>Reading the scenario table</h3>
-      <ol>
-        <li><strong>Scenario name</strong> tells you the location, what's in the path, the band, and the distance — e.g. <code>Home-1×Plasterboard 5GHz 8m</code> means 8 metres from the router through one plasterboard wall.</li>
-        <li><strong>Italic description</strong> below the name gives a plain-English sketch of where the router and client sat and what the signal had to pass through.</li>
-        <li><strong>Tag chips</strong> mark non-default settings: <code>MLO</code> for Multi-Link Operation, <code>Wired</code> for the backhaul connection, plus channel width and stream count.</li>
-        <li><strong>The bar</strong> shows mean throughput scaled against the maximum measured across the whole study (~1500 Mbps). Red bars indicate sub-100 Mbps results; green bars indicate sub-gigabit-and-above.</li>
-        <li><strong>The number on the right</strong> is the mean iperf3 throughput in Mbps across all runs of that scenario.</li>
-        <li><strong>Click any row</strong> to expand and reveal standard deviation, min/max range, PHY link rate, PHY efficiency, co-channel and adjacent-channel interference, neighbour AP count, and — where applicable — MLO secondary-link details.</li>
-      </ol>
+      <div class="help-panel-inner">
+        <h3>Reading the scenario table</h3>
+        <ol>
+          <li><strong>Scenario name</strong> tells you the location, what's in the path, the band, and the distance — e.g. <code>Home-1×Plasterboard 5GHz 8m</code> means 8 metres from the router through one plasterboard wall.</li>
+          <li><strong>Italic description</strong> below the name gives a plain-English sketch of where the router and client sat and what the signal had to pass through.</li>
+          <li><strong>Tag chips</strong> mark non-default settings: <code>MLO</code> for Multi-Link Operation, <code>Wired</code> for the backhaul connection, plus channel width and stream count.</li>
+          <li><strong>The bar</strong> shows mean throughput scaled against the maximum measured across the whole study (~1500 Mbps). Red bars indicate sub-100 Mbps results; green bars indicate sub-gigabit-and-above.</li>
+          <li><strong>The number on the right</strong> is the mean iperf3 throughput in Mbps across all runs of that scenario.</li>
+          <li><strong>Click any row</strong> to expand and reveal standard deviation, min/max range, PHY link rate, PHY efficiency, co-channel and adjacent-channel interference, neighbour AP count, and — where applicable — MLO secondary-link details.</li>
+        </ol>
+      </div>
     </div>
 
     <div class="controls">
@@ -619,13 +657,12 @@ footer a:hover{border-color:var(--accent)}
       <span class="count-badge" id="countBadge"></span>
     </div>
 
-    
-<div class="scroll-indicator">
-  <span>Scroll to explore all scenarios</span>
-  <span class="arrow">↓</span>
-</div>
+    <div class="scroll-indicator">
+      <span>Scroll to explore all scenarios</span>
+      <span class="arrow">↓</span>
+    </div>
 
-<div class="scenario-grid" id="scenarioGrid"></div>
+    <div class="scenario-grid" id="scenarioGrid"></div>
 
   </section>
 
@@ -759,6 +796,7 @@ function render(){
       <div class="scenario-num">${s.avg.toFixed(0)}<small>Mbps avg</small></div>
     `;
 
+    // ----- Build the detail panel (wrapper + inner for animation) -----
     const detail = document.createElement('div');
     detail.className = 'detail';
     const efficiency = (s.avg / s.linkRate * 100).toFixed(1);
@@ -779,17 +817,19 @@ function render(){
     }
 
     detail.innerHTML = `
-      <div class="detail-grid">
-        <div class="detail-stat"><div class="v">${s.avg.toFixed(1)}<small>Mbps</small></div><div class="l">Mean</div></div>
-        <div class="detail-stat"><div class="v">${s.std.toFixed(1)}<small>σ</small></div><div class="l">Std-dev</div></div>
-        <div class="detail-stat"><div class="v">${s.min.toFixed(0)} – ${s.max.toFixed(0)}</div><div class="l">Range (Mbps)</div></div>
-        <div class="detail-stat"><div class="v">${s.linkRate.toFixed(0)}<small>Mbps</small></div><div class="l">Link Rate (PHY)</div></div>
-        <div class="detail-stat"><div class="v">${efficiency}<small>%</small></div><div class="l">PHY Efficiency</div></div>
-        <div class="detail-stat"><div class="v">${s.cci.toFixed(0)} / ${s.aci.toFixed(0)}</div><div class="l">CCI / ACI</div></div>
-        <div class="detail-stat"><div class="v">${s.neighbors}</div><div class="l">Neighbour APs</div></div>
-        <div class="detail-stat"><div class="v">${s.runs}</div><div class="l">Runs</div></div>
-        ${mloLine}
-        ${rssiBlock}
+      <div class="detail-inner">
+        <div class="detail-grid">
+          <div class="detail-stat"><div class="v">${s.avg.toFixed(1)}<small>Mbps</small></div><div class="l">Mean</div></div>
+          <div class="detail-stat"><div class="v">${s.std.toFixed(1)}<small>σ</small></div><div class="l">Std-dev</div></div>
+          <div class="detail-stat"><div class="v">${s.min.toFixed(0)} – ${s.max.toFixed(0)}</div><div class="l">Range (Mbps)</div></div>
+          <div class="detail-stat"><div class="v">${s.linkRate.toFixed(0)}<small>Mbps</small></div><div class="l">Link Rate (PHY)</div></div>
+          <div class="detail-stat"><div class="v">${efficiency}<small>%</small></div><div class="l">PHY Efficiency</div></div>
+          <div class="detail-stat"><div class="v">${s.cci.toFixed(0)} / ${s.aci.toFixed(0)}</div><div class="l">CCI / ACI</div></div>
+          <div class="detail-stat"><div class="v">${s.neighbors}</div><div class="l">Neighbour APs</div></div>
+          <div class="detail-stat"><div class="v">${s.runs}</div><div class="l">Runs</div></div>
+          ${mloLine}
+          ${rssiBlock}
+        </div>
       </div>
     `;
 
@@ -799,20 +839,26 @@ function render(){
     row.addEventListener('click', () => {
       const wasOpen = detail.classList.contains('open');
 
-      grid.querySelectorAll('.detail.open').forEach(d => d.classList.remove('open'));
-      grid.querySelectorAll('.scenario-row.expanded').forEach(r => r.classList.remove('expanded'));
+      // Close any other open rows
+      grid.querySelectorAll('.detail.open').forEach(d => {
+        if (d !== detail) d.classList.remove('open');
+      });
+      grid.querySelectorAll('.scenario-row.expanded').forEach(r => {
+        if (r !== row) r.classList.remove('expanded');
+      });
 
-      if (!wasOpen){
+      if (wasOpen){
+        // Toggle this row closed. No scroll — staying put feels right on close.
+        detail.classList.remove('open');
+        row.classList.remove('expanded');
+      } else {
+        // Open this row. Wait for the expand animation to finish before
+        // smooth-scrolling so the scroll target is the panel's final size.
         detail.classList.add('open');
         row.classList.add('expanded');
-
-        // Ensure expanded content stays visible inside scroll container
         setTimeout(() => {
-          detail.scrollIntoView({
-            behavior:'smooth',
-            block:'nearest'
-          });
-        }, 50);
+          detail.scrollIntoView({behavior:'smooth', block:'nearest'});
+        }, 320);
       }
     });
   });

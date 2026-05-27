@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wi-Fi 7 Field Study — Scenario Browser (WIP)</title>
+<title>Wi-Fi 7 Field Study — Is Wi-Fi 7 as fast as they say?</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,300;9..144,0,400;9..144,0,500;9..144,0,600;9..144,0,800;9..144,1,400;9..144,1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
   --paper:#f4f1ea;
@@ -39,16 +39,50 @@ body{
 .wrap{max-width:1100px;margin:0 auto;padding:0 32px}
 @media(max-width:640px){.wrap{padding:0 20px}}
 
-/* header */
+/* header / sticky nav */
 header{
   border-bottom:1px solid var(--rule);
-  padding:24px 0;
+  padding:18px 0;
+  position:sticky;
+  top:0;
+  background:rgba(244,241,234,0.92);
+  backdrop-filter:saturate(140%) blur(8px);
+  -webkit-backdrop-filter:saturate(140%) blur(8px);
+  z-index:50;
 }
-.brand{font-family:'Fraunces',serif;font-weight:600;font-size:18px;letter-spacing:-0.01em}
+header .wrap{
+  display:flex;align-items:center;gap:24px;flex-wrap:nowrap;
+}
+.brand{font-family:'Fraunces',serif;font-weight:600;font-size:17px;letter-spacing:-0.01em;white-space:nowrap}
 .brand span{color:var(--accent)}
+nav.sectionnav{
+  display:flex;gap:4px;margin-left:auto;
+  overflow-x:auto;
+  scrollbar-width:none;
+}
+nav.sectionnav::-webkit-scrollbar{display:none}
+nav.sectionnav a{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--ink-soft);
+  text-decoration:none;
+  padding:6px 12px;
+  white-space:nowrap;
+  border:1px solid transparent;
+  transition:color .15s,border-color .15s,background .15s;
+}
+nav.sectionnav a:hover{color:var(--accent);border-color:var(--rule)}
+nav.sectionnav a.active{color:var(--accent);border-color:var(--accent-soft);background:#fef3e0}
+@media(max-width:640px){
+  header .wrap{gap:12px}
+  .brand{font-size:14px}
+  nav.sectionnav a{padding:5px 9px;font-size:10px}
+}
 
 /* hero */
-.hero{padding:64px 0 40px;border-bottom:1px solid var(--rule)}
+.hero{padding:64px 0 48px;border-bottom:1px solid var(--rule)}
 .eyebrow{
   font-family:'JetBrains Mono',monospace;
   font-size:11px;letter-spacing:0.18em;text-transform:uppercase;
@@ -70,22 +104,22 @@ header{
 h1.title{
   font-family:'Fraunces',serif;
   font-weight:300;
-  font-size:clamp(36px,5.5vw,64px);
-  line-height:1.05;
-  letter-spacing:-0.025em;
+  font-size:clamp(40px,6.2vw,72px);
+  line-height:1.02;
+  letter-spacing:-0.028em;
   margin-bottom:24px;
 }
 h1.title em{font-style:italic;font-weight:400;color:var(--accent)}
 .hero p.lead{
   font-family:'Fraunces',serif;
-  font-size:clamp(17px,1.8vw,20px);
+  font-size:clamp(17px,1.8vw,21px);
   line-height:1.55;
-  max-width:740px;
+  max-width:760px;
   color:var(--ink-soft);
   font-weight:400;
 }
 .byline{
-  margin-top:32px;
+  margin-top:36px;
   font-size:13px;
   color:var(--ink-fade);
   font-family:'JetBrains Mono',monospace;
@@ -93,24 +127,150 @@ h1.title em{font-style:italic;font-weight:400;color:var(--accent)}
 }
 .byline strong{color:var(--ink);font-weight:500}
 
-/* main section */
-.main-section{padding:56px 0}
+/* sections */
+.main-section{padding:64px 0;border-bottom:1px solid var(--rule)}
+.main-section:last-of-type{border-bottom:none}
 .section-head{margin-bottom:32px;max-width:780px}
 h2{
   font-family:'Fraunces',serif;
   font-weight:400;
-  font-size:clamp(26px,3.5vw,38px);
+  font-size:clamp(28px,3.8vw,42px);
   line-height:1.1;letter-spacing:-0.02em;
   margin-bottom:16px;
 }
 h2 .num{
   font-family:'JetBrains Mono',monospace;
-  font-size:14px;font-weight:400;
+  font-size:13px;font-weight:400;
   color:var(--accent);
-  letter-spacing:0.1em;
+  letter-spacing:0.12em;
   display:block;margin-bottom:12px;
 }
 .section-head p{color:var(--ink-soft);font-size:16px;max-width:680px}
+
+/* background section prose */
+.prose{max-width:720px;font-size:16.5px;line-height:1.7;color:var(--ink-soft)}
+.prose p{margin-bottom:18px}
+.prose p:last-child{margin-bottom:0}
+.prose strong{color:var(--ink);font-weight:500}
+.prose em{font-family:'Fraunces',serif;font-style:italic;font-size:1.02em}
+
+.callouts{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:0;
+  margin-top:36px;
+  border:1px solid var(--rule);
+  background:var(--paper-dark);
+}
+.callout{
+  padding:22px 24px;
+  border-right:1px solid var(--rule);
+}
+.callout:last-child{border-right:none}
+.callout .v{
+  font-family:'Fraunces',serif;
+  font-size:32px;
+  font-weight:400;
+  line-height:1;
+  letter-spacing:-0.02em;
+  color:var(--ink);
+}
+.callout .v small{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;
+  color:var(--ink-fade);
+  margin-left:4px;
+  font-weight:400;
+}
+.callout .l{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;
+  text-transform:uppercase;
+  letter-spacing:0.12em;
+  color:var(--ink-fade);
+  margin-top:8px;
+}
+@media(max-width:640px){
+  .callout{border-right:none;border-bottom:1px solid var(--rule)}
+  .callout:last-child{border-bottom:none}
+}
+
+/* scenarios — section head with collapsible help */
+.scenarios-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  gap:24px;
+  margin-bottom:24px;
+  flex-wrap:wrap;
+}
+.scenarios-head .section-head{margin-bottom:0;flex:1;min-width:260px}
+.help-toggle{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--accent);
+  background:none;
+  border:1px solid var(--accent-soft);
+  padding:8px 14px;
+  cursor:pointer;
+  transition:background .15s;
+  white-space:nowrap;
+}
+.help-toggle:hover{background:#fef3e0}
+.help-toggle .arrow{display:inline-block;transition:transform .2s;margin-left:6px}
+.help-toggle.open .arrow{transform:rotate(180deg)}
+
+.help-panel{
+  display:none;
+  margin-bottom:24px;
+  padding:24px 28px;
+  border:1px solid var(--rule);
+  background:var(--paper-dark);
+}
+.help-panel.open{display:block}
+.help-panel h3{
+  font-family:'Fraunces',serif;
+  font-weight:500;
+  font-size:18px;
+  margin-bottom:14px;
+  letter-spacing:-0.01em;
+}
+.help-panel ol{
+  list-style:none;
+  counter-reset:helpstep;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:18px 28px;
+}
+.help-panel li{
+  counter-increment:helpstep;
+  position:relative;
+  padding-left:32px;
+  font-size:14px;
+  line-height:1.55;
+  color:var(--ink-soft);
+}
+.help-panel li::before{
+  content:counter(helpstep,decimal-leading-zero);
+  position:absolute;
+  left:0;top:0;
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;
+  color:var(--accent);
+  font-weight:500;
+  letter-spacing:0.05em;
+}
+.help-panel li strong{color:var(--ink);font-weight:500}
+.help-panel li code{
+  font-family:'JetBrains Mono',monospace;
+  font-size:12px;
+  background:var(--paper);
+  padding:1px 5px;
+  border:1px solid var(--rule);
+  color:var(--ink);
+}
 
 /* scenario filter */
 .controls{
@@ -147,8 +307,8 @@ h2 .num{
 .scenario-grid{display:flex;flex-direction:column;gap:0;border:1px solid var(--rule)}
 .scenario-row{
   display:grid;
-  grid-template-columns:1fr 110px 110px 130px;
-  gap:16px;
+  grid-template-columns:1.4fr 130px 130px;
+  gap:20px;
   padding:18px 20px;
   border-bottom:1px solid var(--rule);
   background:var(--paper);
@@ -159,13 +319,30 @@ h2 .num{
 .scenario-row:last-child{border-bottom:none}
 .scenario-row:hover{background:var(--paper-dark)}
 .scenario-row.expanded{background:var(--paper-dark)}
-.scenario-meta{display:flex;flex-direction:column;gap:4px;min-width:0}
+.scenario-meta{display:flex;flex-direction:column;gap:6px;min-width:0}
 .scenario-title{
   font-family:'Fraunces',serif;font-weight:500;font-size:16px;
   letter-spacing:-0.01em;
   display:flex;align-items:center;gap:8px;flex-wrap:wrap;
 }
-.scenario-tags{display:flex;gap:6px;flex-wrap:wrap;font-size:11px}
+.scenario-desc{
+  font-family:'Fraunces',serif;
+  font-style:italic;
+  font-weight:400;
+  font-size:14px;
+  line-height:1.45;
+  color:var(--ink-soft);
+  max-width:520px;
+}
+.scenario-desc.placeholder{
+  font-style:normal;
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;
+  letter-spacing:0.05em;
+  color:var(--ink-fade);
+  opacity:0.7;
+}
+.scenario-tags{display:flex;gap:6px;flex-wrap:wrap;font-size:11px;margin-top:2px}
 .tag-chip{
   font-family:'JetBrains Mono',monospace;
   font-size:10px;
@@ -178,6 +355,7 @@ h2 .num{
 }
 .tag-chip.mlo{background:#fef3e0;border-color:var(--accent-soft);color:var(--accent)}
 .tag-chip.wired{background:#e8efe4;border-color:#7ba274;color:var(--good)}
+.scenario-row:hover .scenario-row.expanded .scenario-bar{background:var(--paper)}
 .scenario-num{
   font-family:'Fraunces',serif;
   font-weight:400;
@@ -187,13 +365,6 @@ h2 .num{
   text-align:right;
 }
 .scenario-num small{font-size:11px;color:var(--ink-fade);font-family:'JetBrains Mono',monospace;display:block;letter-spacing:0.05em}
-.scenario-link{
-  font-family:'JetBrains Mono',monospace;
-  font-size:11px;
-  color:var(--ink-fade);
-  text-align:right;
-  letter-spacing:0.05em;
-}
 .scenario-bar{
   position:relative;
   height:8px;
@@ -209,7 +380,7 @@ h2 .num{
 .scenario-bar-fill.good{background:var(--good)}
 @media(max-width:720px){
   .scenario-row{grid-template-columns:1fr 90px;gap:12px}
-  .scenario-row > :nth-child(3),.scenario-row > :nth-child(4){display:none}
+  .scenario-row > .scenario-bar{display:none}
 }
 
 /* expanded details */
@@ -239,24 +410,46 @@ h2 .num{
   margin-top:6px;
 }
 
-/* ======================================================================
-   RSSI VISIBILITY TOGGLE
-   ------------------------------------------------------------------
-   RSSI fields are rendered into the DOM but hidden by default.
-   To reveal them later (once data collection is complete), do ONE
-   of the following:
-     1. Remove the `display:none` rule below, OR
-     2. Add the class `show-rssi` to <body>, OR
-     3. In the browser console: document.body.classList.add('show-rssi')
-   ====================================================================== */
+/* RSSI visibility toggle (unchanged behaviour) */
 .detail-stat.rssi{display:none}
 body.show-rssi .detail-stat.rssi{display:block}
+
+/* summary placeholder */
+.summary-pending{
+  border:1px dashed var(--accent-soft);
+  background:#fef3e0;
+  padding:40px 32px;
+  text-align:center;
+}
+.summary-pending .badge{
+  display:inline-block;
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin-bottom:14px;
+}
+.summary-pending h3{
+  font-family:'Fraunces',serif;
+  font-weight:400;
+  font-size:26px;
+  line-height:1.2;
+  margin-bottom:12px;
+  letter-spacing:-0.015em;
+}
+.summary-pending p{
+  color:var(--ink-soft);
+  font-size:15px;
+  max-width:480px;
+  margin:0 auto;
+}
 
 /* footer */
 footer{
   padding:32px 0 48px;
   border-top:1px solid var(--rule);
-  margin-top:64px;
+  margin-top:0;
 }
 footer .wrap{
   display:flex;justify-content:space-between;flex-wrap:wrap;gap:24px;
@@ -274,15 +467,22 @@ footer a:hover{border-color:var(--accent)}
 <header>
   <div class="wrap">
     <div class="brand">Wi-Fi 7 <span>·</span> Field Study</div>
+    <nav class="sectionnav" id="sectionnav">
+      <a href="#background" data-section="background">Background</a>
+      <a href="#scenarios" data-section="scenarios">Scenarios</a>
+      <a href="#summary" data-section="summary">Summary</a>
+    </nav>
   </div>
 </header>
 
 <div class="wrap">
-  <div class="hero">
+
+  <!-- =========================== HERO =========================== -->
+  <div class="hero" id="top">
     <div class="eyebrow">Capstone Project · Bachelor of Engineering · 2026</div>
     <span class="wip-badge">⚠ Work in Progress</span>
-    <h1 class="title">Wi&#8209;Fi&nbsp;7 <em>scenario</em> browser.</h1>
-    <p class="lead">Early preview of measurement results from an ongoing field study of IEEE 802.11be (Wi-Fi 7). Currently shows the per-scenario aggregate browser — methodology writeup, findings, and degradation analysis are still being prepared.</p>
+    <h1 class="title">Is Wi&#8209;Fi&nbsp;7 as <em>fast</em> as they say?</h1>
+    <p class="lead">A performance study of IEEE 802.11be using field measurements. 779 test runs across 76 scenarios in real homes and offices, measured with off-the-shelf consumer hardware in the conditions people actually use it.</p>
     <div class="byline">
       <span><strong>Status</strong> Data collection complete</span>
       <span><strong>Runs</strong> 779 measured</span>
@@ -291,10 +491,58 @@ footer a:hover{border-color:var(--accent)}
     </div>
   </div>
 
-  <section class="main-section" id="scenarios">
+  <!-- ========================= BACKGROUND ========================= -->
+  <section class="main-section" id="background">
     <div class="section-head">
-      <h2><span class="num">§ Scenarios</span>Browse 76 test scenarios</h2>
-      <p>Filter by environment, band, mode, or connection. Click any row to expand and see mean throughput, standard deviation, range, link rate, PHY efficiency, and interference metrics. The bar at right shows mean throughput scaled against the maximum measured (≈ 1488 Mbps).</p>
+      <h2><span class="num">§ 01 Background</span>What this study is, and why it exists</h2>
+    </div>
+    <div class="prose">
+      <p><strong>Wi-Fi 7</strong> (IEEE 802.11be) is the latest generation of wireless networking, advertising peak rates up to <strong>46 Gbps</strong>, which is roughly four times the theoretical ceiling of Wi-Fi 6. It introduces three headline features: <em>320 MHz channels</em> (double the bandwidth), <em>4K-QAM</em> (denser modulation), and <em>Multi-Link Operation</em> (using two bands simultaneously on one connection).</p>
+      <p>Vendor datasheets and lab benchmarks paint an attractive picture. What they rarely show is what happens to that throughput once the signal passes through a plasterboard wall, competes with twenty neighbour networks on the same channels, or moves more than three metres from the router. The gap between <em>specified</em> and <em>delivered</em> performance is what this study measures.</p>
+      <p>Over the course of <strong>779 individual iperf3 runs</strong>, throughput was recorded across <strong>76 distinct scenarios</strong> spanning two homes and an office. Each scenario fixes a location, distance, obstruction profile, band, channel width, and operating mode. The result is a picture of how Wi-Fi 7 behaves in real scenarios with commercial equipment.</p>
+    </div>
+    <div class="callouts">
+      <div class="callout">
+        <div class="v">779</div>
+        <div class="l">iperf3 runs</div>
+      </div>
+      <div class="callout">
+        <div class="v">76</div>
+        <div class="l">Distinct scenarios</div>
+      </div>
+      <div class="callout">
+        <div class="v">3</div>
+        <div class="l">Environments tested</div>
+      </div>
+      <div class="callout">
+        <div class="v">46<small>Gbps</small></div>
+        <div class="l">Advertised peak</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= SCENARIOS ========================= -->
+  <section class="main-section" id="scenarios">
+    <div class="scenarios-head">
+      <div class="section-head">
+        <h2><span class="num">§ 02 Scenarios</span>Browse all 76 test scenarios</h2>
+        <p>Filter by environment, band, mode, or connection. Click any row to expand and see mean throughput, standard deviation, range, link rate, PHY efficiency, and interference metrics.</p>
+      </div>
+      <button class="help-toggle" id="helpToggle" aria-expanded="false" aria-controls="helpPanel">
+        How to read this <span class="arrow">▾</span>
+      </button>
+    </div>
+
+    <div class="help-panel" id="helpPanel" role="region" aria-label="How to read the scenario table">
+      <h3>Reading the scenario table</h3>
+      <ol>
+        <li><strong>Scenario name</strong> tells you the location, what's in the path, the band, and the distance — e.g. <code>Home-1×Plasterboard 5GHz 8m</code> means 8 metres from the router through one plasterboard wall.</li>
+        <li><strong>Italic description</strong> below the name gives a plain-English sketch of where the router and client sat and what the signal had to pass through.</li>
+        <li><strong>Tag chips</strong> mark non-default settings: <code>MLO</code> for Multi-Link Operation, <code>Wired</code> for the backhaul connection, plus channel width and stream count.</li>
+        <li><strong>The bar</strong> shows mean throughput scaled against the maximum measured across the whole study (~1500 Mbps). Red bars indicate sub-100 Mbps results; green bars indicate sub-gigabit-and-above.</li>
+        <li><strong>The number on the right</strong> is the mean iperf3 throughput in Mbps across all runs of that scenario.</li>
+        <li><strong>Click any row</strong> to expand and reveal standard deviation, min/max range, PHY link rate, PHY efficiency, co-channel and adjacent-channel interference, neighbour AP count, and — where applicable — MLO secondary-link details.</li>
+      </ol>
     </div>
 
     <div class="controls">
@@ -318,6 +566,19 @@ footer a:hover{border-color:var(--accent)}
 
     <div class="scenario-grid" id="scenarioGrid"></div>
   </section>
+
+  <!-- ========================= SUMMARY ========================= -->
+  <section class="main-section" id="summary">
+    <div class="section-head">
+      <h2><span class="num">§ 03 Summary</span>Headline findings</h2>
+    </div>
+    <div class="summary-pending">
+      <span class="badge">⚠ Coming Soon</span>
+      <h3>Analysis in progress</h3>
+      <p>Cross-scenario findings, degradation curves, and the answer to the title question are still being prepared. Check back once the analysis is complete, or browse the raw scenario data above in the meantime.</p>
+    </div>
+  </section>
+
 </div>
 
 <footer>
@@ -409,29 +670,31 @@ function render(){
     row.dataset.idx = i;
 
     // Build descriptive scenario title.
-    // Location is the part before "-" in env (e.g. "Home-LOS" -> "Home").
-    // LOS  : (Location)-LOS (Band) (Distance)
-    // Wall : (Location)-(N) (Material) (Band) (Distance)
     const location = s.env.split('-')[0];
     const obstruction = s.material
       ? `${s.walls}×${s.material}`
       : 'LOS';
     const titleText = `${location}-${obstruction} ${s.band} ${s.distance}m`;
 
-    // Chips: only show things that aren't already in the title
+    // Chips
     const tags = [];
     if (s.mode === 'MLO') tags.push('<span class="tag-chip mlo">MLO</span>');
     if (s.conn === 'Wired') tags.push('<span class="tag-chip wired">Wired</span>');
     tags.push(`<span class="tag-chip">${s.width}MHz · ${s.streams}-stream</span>`);
 
+    // Description line
+    const descHTML = s.description
+      ? `<div class="scenario-desc">${s.description}</div>`
+      : `<div class="scenario-desc placeholder">description pending</div>`;
+
     row.innerHTML = `
       <div class="scenario-meta">
         <div class="scenario-title">${titleText}</div>
+        ${descHTML}
         <div class="scenario-tags">${tags.join('')}</div>
       </div>
       <div class="scenario-bar"><div class="scenario-bar-fill ${barClass}" style="width:${pct}%"></div></div>
       <div class="scenario-num">${s.avg.toFixed(0)}<small>Mbps avg</small></div>
-      <div class="scenario-link">${s.runs} runs ↓</div>
     `;
 
     const detail = document.createElement('div');
@@ -443,10 +706,6 @@ function render(){
          <div class="detail-stat"><div class="v">${s.mloSecondaryRate.toFixed(0)}<small>Mbps</small></div><div class="l">Link 2 Rate</div></div>`
       : '';
 
-    // --- RSSI block (hidden by default; toggled via body.show-rssi) ---
-    // Renders only if we actually have RSSI data for this scenario.
-    // The .rssi class is what the CSS toggle controls; data is always
-    // available in s.primaryRSSI / s.secondaryRSSI for future use.
     let rssiBlock = '';
     if (s.primaryRSSI !== null && s.primaryRSSI !== undefined) {
       const stdPart = s.primaryRSSIstd !== null && s.primaryRSSIstd !== undefined
@@ -486,6 +745,34 @@ function render(){
     });
   });
 }
+
+// Help-panel toggle
+const helpToggle = document.getElementById('helpToggle');
+const helpPanel = document.getElementById('helpPanel');
+helpToggle.addEventListener('click', () => {
+  const isOpen = helpPanel.classList.toggle('open');
+  helpToggle.classList.toggle('open', isOpen);
+  helpToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+});
+
+// Scrollspy for nav
+const navLinks = document.querySelectorAll('nav.sectionnav a');
+const sections = ['background','scenarios','summary']
+  .map(id => document.getElementById(id))
+  .filter(Boolean);
+
+function updateActiveNav(){
+  const scrollPos = window.scrollY + 120;
+  let current = sections[0]?.id;
+  for (const sec of sections){
+    if (sec.offsetTop <= scrollPos) current = sec.id;
+  }
+  navLinks.forEach(a => {
+    a.classList.toggle('active', a.dataset.section === current);
+  });
+}
+window.addEventListener('scroll', updateActiveNav, {passive:true});
+updateActiveNav();
 
 loadData();
 </script>

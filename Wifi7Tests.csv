@@ -1,44 +1,44 @@
 Timestamp,Environment,Scenario,Mode,PrimaryChannel,PrimaryBand,PrimaryWidth_MHz,PrimaryLinkRate_Mbps,SecondaryChannel,SecondaryBand,SecondaryWidth_MHz,SecondaryLinkRate_Mbps,PrimaryCCI,PrimaryACI,PrimaryNeighbors,SecondaryCCI,SecondaryACI,SecondaryNeighbors,Streams,Throughput_Mbps,Retransmits,Run,Distance,Material,PartitionAmount,PartitionThickness,Connection,PrimaryRSSI,SecondaryRSSI
-2/25/2026 9:43,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1253.83,0,1,1.5,,0,0,Wired,,
-2/25/2026 9:43,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1294.08,0,2,1.5,,0,0,Wired,,
-2/25/2026 9:44,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1329.55,0,3,1.5,,0,0,Wired,,
-2/25/2026 9:44,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1287.05,0,4,1.5,,0,0,Wired,,
-2/25/2026 9:45,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1328.86,0,5,1.5,,0,0,Wired,,
-2/25/2026 9:46,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1318.87,0,6,1.5,,0,0,Wired,,
-2/25/2026 9:46,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1331.63,0,7,1.5,,0,0,Wired,,
-2/25/2026 9:47,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1321.78,0,8,1.5,,0,0,Wired,,
-2/25/2026 9:47,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1423.39,0,9,1.5,,0,0,Wired,,
-2/25/2026 9:48,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1279.91,0,10,1.5,,0,0,Wired,,
-2/25/2026 10:02,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1487.74,0,1,1.5,,0,0,Wired,,
-2/25/2026 10:02,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1467.45,0,2,1.5,,0,0,Wired,,
-2/25/2026 10:03,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1431.22,0,3,1.5,,0,0,Wired,,
-2/25/2026 10:03,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1495.37,0,4,1.5,,0,0,Wired,,
-2/25/2026 10:04,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1508.37,0,5,1.5,,0,0,Wired,,
-2/25/2026 10:04,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1486.49,0,6,1.5,,0,0,Wired,,
-2/25/2026 10:05,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1477.38,0,7,1.5,,0,0,Wired,,
-2/25/2026 10:06,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1525.54,0,8,1.5,,0,0,Wired,,
-2/25/2026 10:06,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1522.5,0,9,1.5,,0,0,Wired,,
-2/25/2026 10:07,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1483.8,0,10,1.5,,0,0,Wired,,
-2/25/2026 10:13,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,225.14,0,1,1.5,,0,0,Wired,,
-2/25/2026 10:13,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,230.06,0,2,1.5,,0,0,Wired,,
-2/25/2026 10:14,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,231.3,0,3,1.5,,0,0,Wired,,
-2/25/2026 10:15,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,241.69,0,4,1.5,,0,0,Wired,,
-2/25/2026 10:15,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,257.53,0,5,1.5,,0,0,Wired,,
-2/25/2026 10:16,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,229.99,0,6,1.5,,0,0,Wired,,
-2/25/2026 10:16,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,242.97,0,7,1.5,,0,0,Wired,,
-2/25/2026 10:17,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,233.66,0,8,1.5,,0,0,Wired,,
-2/25/2026 10:18,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,236.67,0,9,1.5,,0,0,Wired,,
-2/25/2026 10:18,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,233.84,0,10,1.5,,0,0,Wired,,
-2/25/2026 10:35,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1399.51,0,1,1.5,,0,0,Wired,,
-2/25/2026 10:36,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1468.72,0,2,1.5,,0,0,Wired,,
-2/25/2026 10:37,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1361.14,0,3,1.5,,0,0,Wired,,
-2/25/2026 10:37,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1346.66,0,4,1.5,,0,0,Wired,,
-2/25/2026 10:38,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1501.79,0,5,1.5,,0,0,Wired,,
-2/25/2026 10:38,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1344.04,0,6,1.5,,0,0,Wired,,
-2/25/2026 10:39,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1412.74,0,7,1.5,,0,0,Wired,,
-2/25/2026 10:40,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1526.8,0,8,1.5,,0,0,Wired,,
-2/25/2026 10:40,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1524.14,0,9,1.5,,0,0,Wired,,
-2/25/2026 10:41,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1442.66,0,10,1.5,,0,0,Wired,,
+2/25/2026 9:43,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1253.83,0,1,1.5,,0,0,Wired,-43,
+2/25/2026 9:43,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1294.08,0,2,1.5,,0,0,Wired,-43,
+2/25/2026 9:44,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1329.55,0,3,1.5,,0,0,Wired,-43,
+2/25/2026 9:44,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1287.05,0,4,1.5,,0,0,Wired,-43,
+2/25/2026 9:45,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1328.86,0,5,1.5,,0,0,Wired,-43,
+2/25/2026 9:46,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1318.87,0,6,1.5,,0,0,Wired,-43,
+2/25/2026 9:46,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1331.63,0,7,1.5,,0,0,Wired,-43,
+2/25/2026 9:47,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1321.78,0,8,1.5,,0,0,Wired,-43,
+2/25/2026 9:47,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1423.39,0,9,1.5,,0,0,Wired,-43,
+2/25/2026 9:48,Home-LOS,1.5m Home LOS 6GHz Wired,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,1279.91,0,10,1.5,,0,0,Wired,-43,
+2/25/2026 10:02,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1487.74,0,1,1.5,,0,0,Wired,-29,
+2/25/2026 10:02,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1467.45,0,2,1.5,,0,0,Wired,-29,
+2/25/2026 10:03,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1431.22,0,3,1.5,,0,0,Wired,-29,
+2/25/2026 10:03,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1495.37,0,4,1.5,,0,0,Wired,-29,
+2/25/2026 10:04,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1508.37,0,5,1.5,,0,0,Wired,-29,
+2/25/2026 10:04,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1486.49,0,6,1.5,,0,0,Wired,-29,
+2/25/2026 10:05,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1477.38,0,7,1.5,,0,0,Wired,-29,
+2/25/2026 10:06,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1525.54,0,8,1.5,,0,0,Wired,-29,
+2/25/2026 10:06,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1522.5,0,9,1.5,,0,0,Wired,-29,
+2/25/2026 10:07,Home-LOS,1.5m Home LOS 5GHz Wired,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,1483.8,0,10,1.5,,0,0,Wired,-29,
+2/25/2026 10:13,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,225.14,0,1,1.5,,0,0,Wired,-28,
+2/25/2026 10:13,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,230.06,0,2,1.5,,0,0,Wired,-28,
+2/25/2026 10:14,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,231.3,0,3,1.5,,0,0,Wired,-28,
+2/25/2026 10:15,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,241.69,0,4,1.5,,0,0,Wired,-28,
+2/25/2026 10:15,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,257.53,0,5,1.5,,0,0,Wired,-28,
+2/25/2026 10:16,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,229.99,0,6,1.5,,0,0,Wired,-28,
+2/25/2026 10:16,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,242.97,0,7,1.5,,0,0,Wired,-28,
+2/25/2026 10:17,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,233.66,0,8,1.5,,0,0,Wired,-28,
+2/25/2026 10:18,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,236.67,0,9,1.5,,0,0,Wired,-28,
+2/25/2026 10:18,Home-LOS,1.5m Home LOS 2.4GHz Wired,Standard,1,2.4GHz,20,344,,,,,2,4,16,,,,4,233.84,0,10,1.5,,0,0,Wired,-28,
+2/25/2026 10:35,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1399.51,0,1,1.5,,0,0,Wired,-32,-46
+2/25/2026 10:36,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1468.72,0,2,1.5,,0,0,Wired,-32,-46
+2/25/2026 10:37,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1361.14,0,3,1.5,,0,0,Wired,-32,-46
+2/25/2026 10:37,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1346.66,0,4,1.5,,0,0,Wired,-32,-46
+2/25/2026 10:38,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1501.79,0,5,1.5,,0,0,Wired,-32,-46
+2/25/2026 10:38,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1344.04,0,6,1.5,,0,0,Wired,-32,-46
+2/25/2026 10:39,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1412.74,0,7,1.5,,0,0,Wired,-32,-46
+2/25/2026 10:40,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1526.8,0,8,1.5,,0,0,Wired,-32,-46
+2/25/2026 10:40,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1524.14,0,9,1.5,,0,0,Wired,-32,-46
+2/25/2026 10:41,Home-LOS,1.5m Home LOS MLO Wired,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,1442.66,0,10,1.5,,0,0,Wired,-32,-46
 2/25/2026 9:26,Home-LOS,1.5m Home LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,509.8,0,1,1.5,,0,0,Wireless,-46,
 2/25/2026 9:27,Home-LOS,1.5m Home LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,530.17,0,2,1.5,,0,0,Wireless,-46,
 2/25/2026 9:28,Home-LOS,1.5m Home LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,533.31,0,3,1.5,,0,0,Wireless,-46,
@@ -79,36 +79,36 @@ Timestamp,Environment,Scenario,Mode,PrimaryChannel,PrimaryBand,PrimaryWidth_MHz,
 2/25/2026 10:49,Home-LOS,1.5m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,231.61,0,8,1.5,,0,0,Wireless,-34,-46
 2/25/2026 10:50,Home-LOS,1.5m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,226.87,0,9,1.5,,0,0,Wireless,-34,-46
 2/25/2026 10:50,Home-LOS,1.5m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,6,0,0,6,8,135.51,0,10,1.5,,0,0,Wireless,-34,-46
-3/4/2026 20:30,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,678.9,0,1,1.5,,0,0,Wireless,,
-3/4/2026 20:31,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,647.79,0,2,1.5,,0,0,Wireless,,
-3/4/2026 20:31,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,671.4,0,3,1.5,,0,0,Wireless,,
-3/4/2026 20:32,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,633.71,0,4,1.5,,0,0,Wireless,,
-3/4/2026 20:33,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,645.07,0,5,1.5,,0,0,Wireless,,
-3/4/2026 20:33,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,648.97,0,6,1.5,,0,0,Wireless,,
-3/4/2026 20:34,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,667.73,0,7,1.5,,0,0,Wireless,,
-3/4/2026 20:35,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,649.46,0,8,1.5,,0,0,Wireless,,
-3/4/2026 20:35,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,644.87,0,9,1.5,,0,0,Wireless,,
-3/4/2026 20:36,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,660.5,0,10,1.5,,0,0,Wireless,,
-3/4/2026 20:47,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,260.29,0,1,1.5,,0,0,Wireless,,
-3/4/2026 20:47,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,260.92,0,2,1.5,,0,0,Wireless,,
-3/4/2026 20:48,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,275.09,0,3,1.5,,0,0,Wireless,,
-3/4/2026 20:49,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,268.15,0,4,1.5,,0,0,Wireless,,
-3/4/2026 20:49,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,274.6,0,5,1.5,,0,0,Wireless,,
-3/4/2026 20:50,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,274.46,0,6,1.5,,0,0,Wireless,,
-3/4/2026 20:50,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,264.21,0,7,1.5,,0,0,Wireless,,
-3/4/2026 20:51,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,260.17,0,8,1.5,,0,0,Wireless,,
-3/4/2026 20:51,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,262.08,0,9,1.5,,0,0,Wireless,,
-3/4/2026 20:52,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,256.23,0,10,1.5,,0,0,Wireless,,
-3/4/2026 20:56,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,90.68,0,1,1.5,,0,0,Wireless,,
-3/4/2026 20:56,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,93.95,0,2,1.5,,0,0,Wireless,,
-3/4/2026 20:57,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,93.03,0,3,1.5,,0,0,Wireless,,
-3/4/2026 20:58,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,95.69,0,4,1.5,,0,0,Wireless,,
-3/4/2026 20:58,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,92.79,0,5,1.5,,0,0,Wireless,,
-3/4/2026 20:59,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,97.29,0,6,1.5,,0,0,Wireless,,
-3/4/2026 20:59,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,92.47,0,7,1.5,,0,0,Wireless,,
-3/4/2026 21:00,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,105.44,0,8,1.5,,0,0,Wireless,,
-3/4/2026 21:01,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,97.4,0,9,1.5,,0,0,Wireless,,
-3/4/2026 21:01,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,94.82,0,10,1.5,,0,0,Wireless,,
+3/4/2026 20:30,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,678.9,0,1,1.5,,0,0,Wireless,-59,
+3/4/2026 20:31,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,647.79,0,2,1.5,,0,0,Wireless,-59,
+3/4/2026 20:31,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,671.4,0,3,1.5,,0,0,Wireless,-59,
+3/4/2026 20:32,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,633.71,0,4,1.5,,0,0,Wireless,-59,
+3/4/2026 20:33,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,645.07,0,5,1.5,,0,0,Wireless,-59,
+3/4/2026 20:33,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,648.97,0,6,1.5,,0,0,Wireless,-59,
+3/4/2026 20:34,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,667.73,0,7,1.5,,0,0,Wireless,-59,
+3/4/2026 20:35,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,649.46,0,8,1.5,,0,0,Wireless,-59,
+3/4/2026 20:35,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,644.87,0,9,1.5,,0,0,Wireless,-59,
+3/4/2026 20:36,Uni-LOS,1.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,660.5,0,10,1.5,,0,0,Wireless,-59,
+3/4/2026 20:47,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,260.29,0,1,1.5,,0,0,Wireless,-38,
+3/4/2026 20:47,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,260.92,0,2,1.5,,0,0,Wireless,-38,
+3/4/2026 20:48,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,275.09,0,3,1.5,,0,0,Wireless,-38,
+3/4/2026 20:49,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,268.15,0,4,1.5,,0,0,Wireless,-38,
+3/4/2026 20:49,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,274.6,0,5,1.5,,0,0,Wireless,-38,
+3/4/2026 20:50,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,274.46,0,6,1.5,,0,0,Wireless,-38,
+3/4/2026 20:50,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,264.21,0,7,1.5,,0,0,Wireless,-38,
+3/4/2026 20:51,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,260.17,0,8,1.5,,0,0,Wireless,-38,
+3/4/2026 20:51,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,262.08,0,9,1.5,,0,0,Wireless,-38,
+3/4/2026 20:52,Uni-LOS,1.5m Uni LOS 5GHz Wireless,Standard,149,5GHz,80,1441,,,,,0,5,5,,,,4,256.23,0,10,1.5,,0,0,Wireless,-38,
+3/4/2026 20:56,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,90.68,0,1,1.5,,0,0,Wireless,-36,
+3/4/2026 20:56,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,93.95,0,2,1.5,,0,0,Wireless,-36,
+3/4/2026 20:57,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,93.03,0,3,1.5,,0,0,Wireless,-36,
+3/4/2026 20:58,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,95.69,0,4,1.5,,0,0,Wireless,-36,
+3/4/2026 20:58,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,92.79,0,5,1.5,,0,0,Wireless,-36,
+3/4/2026 20:59,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,97.29,0,6,1.5,,0,0,Wireless,-36,
+3/4/2026 20:59,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,92.47,0,7,1.5,,0,0,Wireless,-36,
+3/4/2026 21:00,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,105.44,0,8,1.5,,0,0,Wireless,-36,
+3/4/2026 21:01,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,97.4,0,9,1.5,,0,0,Wireless,-36,
+3/4/2026 21:01,Uni-LOS,1.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,6,,,,4,94.82,0,10,1.5,,0,0,Wireless,-36,
 3/4/2026 21:04,Uni-LOS,1.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,6,0,0,6,8,232.35,0,1,1.5,,0,0,Wireless,-6,-34
 3/4/2026 21:05,Uni-LOS,1.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,6,0,0,6,8,212.86,0,2,1.5,,0,0,Wireless,-6,-34
 3/4/2026 21:06,Uni-LOS,1.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,6,0,0,6,8,151.04,0,3,1.5,,0,0,Wireless,-6,-34
@@ -279,76 +279,139 @@ Timestamp,Environment,Scenario,Mode,PrimaryChannel,PrimaryBand,PrimaryWidth_MHz,
 2/26/2026 14:00,Home-LOS,4.5m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,1,0,10,0,0,10,8,393.15,0,8,4.5,,0,0,Wireless,-46,-56
 2/26/2026 14:00,Home-LOS,4.5m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,1,0,10,0,0,10,8,448.43,0,9,4.5,,0,0,Wireless,-46,-56
 2/26/2026 14:01,Home-LOS,4.5m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,1,0,10,0,0,10,8,484.6,0,10,4.5,,0,0,Wireless,-46,-56
-3/23/2026 18:20,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,667.27,0,1,12,,0,0,Wireless,,
-3/23/2026 18:21,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,728.23,0,2,12,,0,0,Wireless,,
-3/23/2026 18:21,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,740.44,0,3,12,,0,0,Wireless,,
-3/23/2026 18:22,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,720.09,0,4,12,,0,0,Wireless,,
-3/23/2026 18:22,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,746.14,0,5,12,,0,0,Wireless,,
-3/23/2026 18:23,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,711.89,0,6,12,,0,0,Wireless,,
-3/23/2026 18:24,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,731.89,0,7,12,,0,0,Wireless,,
-3/23/2026 18:24,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,744.48,0,8,12,,0,0,Wireless,,
-3/23/2026 18:25,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,731.9,0,9,12,,0,0,Wireless,,
-3/23/2026 18:25,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,733.14,0,10,12,,0,0,Wireless,,
-3/23/2026 18:45,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,574.68,0,1,12,,0,0,Wireless,,
-3/23/2026 18:46,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,571.94,0,2,12,,0,0,Wireless,,
-3/23/2026 18:47,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,583.56,0,3,12,,0,0,Wireless,,
-3/23/2026 18:47,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,557.41,0,4,12,,0,0,Wireless,,
-3/23/2026 18:48,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,594.65,0,5,12,,0,0,Wireless,,
-3/23/2026 18:48,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,606.25,0,6,12,,0,0,Wireless,,
-3/23/2026 18:49,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,552.71,0,7,12,,0,0,Wireless,,
-3/23/2026 18:50,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,598.89,0,8,12,,0,0,Wireless,,
-3/23/2026 18:50,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,560,0,9,12,,0,0,Wireless,,
-3/23/2026 18:51,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,563.03,0,10,12,,0,0,Wireless,,
-3/23/2026 19:14,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,65.37,0,1,12,,0,0,Wireless,,
-3/23/2026 19:14,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,66.69,0,2,12,,0,0,Wireless,,
-3/23/2026 19:15,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,73.23,0,3,12,,0,0,Wireless,,
-3/23/2026 19:16,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,77.1,0,4,12,,0,0,Wireless,,
-3/23/2026 19:16,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,70.63,0,5,12,,0,0,Wireless,,
-3/23/2026 19:17,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,77.03,0,6,12,,0,0,Wireless,,
-3/23/2026 19:17,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,77.02,0,7,12,,0,0,Wireless,,
-3/23/2026 19:18,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,78.63,0,8,12,,0,0,Wireless,,
-3/23/2026 19:19,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,72.69,0,9,12,,0,0,Wireless,,
-3/23/2026 19:19,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,69.31,0,10,12,,0,0,Wireless,,
-3/23/2026 19:36,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,274.82,0,1,12,,0,0,Wireless,0,-59
-3/23/2026 19:37,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,186.73,0,2,12,,0,0,Wireless,0,-59
-3/23/2026 19:37,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,289.4,0,3,12,,0,0,Wireless,0,-59
-3/23/2026 19:38,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,278.64,0,4,12,,0,0,Wireless,0,-59
-3/23/2026 19:38,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,333.92,0,5,12,,0,0,Wireless,0,-59
-3/23/2026 19:39,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,303.55,0,6,12,,0,0,Wireless,0,-59
-3/23/2026 19:40,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,245.43,0,7,12,,0,0,Wireless,0,-59
-3/23/2026 19:40,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,261.38,0,8,12,,0,0,Wireless,0,-59
-3/23/2026 19:41,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,319.6,0,9,12,,0,0,Wireless,0,-59
-3/23/2026 19:41,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,333.5,0,10,12,,0,0,Wireless,0,-59
-3/4/2026 21:17,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,650.93,0,1,3,,0,0,Wireless,,
-3/4/2026 21:17,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,690.97,0,2,3,,0,0,Wireless,,
-3/4/2026 21:18,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,686.47,0,3,3,,0,0,Wireless,,
-3/4/2026 21:19,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,652.85,0,4,3,,0,0,Wireless,,
-3/4/2026 21:19,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,667.33,0,5,3,,0,0,Wireless,,
-3/4/2026 21:20,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,635.94,0,6,3,,0,0,Wireless,,
-3/4/2026 21:20,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,678.28,0,7,3,,0,0,Wireless,,
-3/4/2026 21:21,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,652.12,0,8,3,,0,0,Wireless,,
-3/4/2026 21:22,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,661.48,0,9,3,,0,0,Wireless,,
-3/4/2026 21:22,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,656.01,0,10,3,,0,0,Wireless,,
-3/4/2026 21:26,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,638.72,0,1,3,,0,0,Wireless,,
-3/4/2026 21:26,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,627.91,0,2,3,,0,0,Wireless,,
-3/4/2026 21:27,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,668.39,0,3,3,,0,0,Wireless,,
-3/4/2026 21:28,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,682.52,0,4,3,,0,0,Wireless,,
-3/4/2026 21:28,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,678.06,0,5,3,,0,0,Wireless,,
-3/4/2026 21:29,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,645.01,0,6,3,,0,0,Wireless,,
-3/4/2026 21:29,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,661.74,0,7,3,,0,0,Wireless,,
-3/4/2026 21:30,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,667.3,0,8,3,,0,0,Wireless,,
-3/4/2026 21:30,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,666.35,0,9,3,,0,0,Wireless,,
-3/4/2026 21:31,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,662.55,0,10,3,,0,0,Wireless,,
-3/4/2026 21:35,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,81.39,0,1,3,,0,0,Wireless,,
-3/4/2026 21:36,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,70.94,0,2,3,,0,0,Wireless,,
-3/4/2026 21:37,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,83.15,0,3,3,,0,0,Wireless,,
-3/4/2026 21:37,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,90.76,0,4,3,,0,0,Wireless,,
-3/4/2026 21:38,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,84.86,0,5,3,,0,0,Wireless,,
-3/4/2026 21:38,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,89.01,0,6,3,,0,0,Wireless,,
-3/4/2026 21:39,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,89.93,0,7,3,,0,0,Wireless,,
-3/4/2026 21:40,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,88.23,0,8,3,,0,0,Wireless,,
-3/4/2026 21:40,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,87.05,0,9,3,,0,0,Wireless,,
-3/4/2026 21:41,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,91.93,0,10,3,,0,0,Wireless,,
+3/17/2026 14:56,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,569.04,0,1,1.5,Glass,1,0.01,Wireless,-61,
+3/17/2026 14:57,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,592.92,0,2,1.5,Glass,1,0.01,Wireless,-61,
+3/17/2026 14:57,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,570.68,0,3,1.5,Glass,1,0.01,Wireless,-61,
+3/17/2026 14:58,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,627.46,0,4,1.5,Glass,1,0.01,Wireless,-61,
+3/17/2026 14:59,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,604.36,0,5,1.5,Glass,1,0.01,Wireless,-61,
+3/17/2026 14:59,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,623.79,0,6,1.5,Glass,1,0.01,Wireless,-61,
+3/17/2026 15:00,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,619.33,0,7,1.5,Glass,1,0.01,Wireless,-61,
+3/17/2026 15:00,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,636.97,0,8,1.5,Glass,1,0.01,Wireless,-61,
+3/17/2026 15:01,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,597.5,0,9,1.5,Glass,1,0.01,Wireless,-61,
+3/17/2026 15:02,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,572.83,0,10,1.5,Glass,1,0.01,Wireless,-61,
+3/17/2026 15:20,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,641.08,0,1,1.5,Glass,1,0.01,Wireless,-41,
+3/17/2026 15:20,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,677.6,0,2,1.5,Glass,1,0.01,Wireless,-41,
+3/17/2026 15:21,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,663.36,0,3,1.5,Glass,1,0.01,Wireless,-41,
+3/17/2026 15:22,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,658.63,0,4,1.5,Glass,1,0.01,Wireless,-41,
+3/17/2026 15:22,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,626.89,0,5,1.5,Glass,1,0.01,Wireless,-41,
+3/17/2026 15:23,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,591.99,0,6,1.5,Glass,1,0.01,Wireless,-41,
+3/17/2026 15:23,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,579.67,0,7,1.5,Glass,1,0.01,Wireless,-41,
+3/17/2026 15:24,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,671.16,0,8,1.5,Glass,1,0.01,Wireless,-41,
+3/17/2026 15:24,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,659.31,0,9,1.5,Glass,1,0.01,Wireless,-41,
+3/17/2026 15:25,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,658.82,0,10,1.5,Glass,1,0.01,Wireless,-41,
+3/17/2026 15:32,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,1,0,6,,,,4,53.69,0,1,1.5,Glass,1,0.01,Wireless,-32,
+3/17/2026 15:38,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,0,,,,4,60.73,0,1,1.5,Glass,1,0.01,Wireless,-32,
+3/17/2026 15:39,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,0,,,,4,79.87,0,2,1.5,Glass,1,0.01,Wireless,-32,
+3/17/2026 15:39,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,0,,,,4,77.66,0,3,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 15:31,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,617.74,0,1,1.5,Glass,1,0.01,Wireless,-61,
+3/23/2026 15:32,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,653.18,0,2,1.5,Glass,1,0.01,Wireless,-61,
+3/23/2026 15:32,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,671.7,0,3,1.5,Glass,1,0.01,Wireless,-61,
+3/23/2026 15:33,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,669.26,0,4,1.5,Glass,1,0.01,Wireless,-61,
+3/23/2026 15:33,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,649.61,0,5,1.5,Glass,1,0.01,Wireless,-61,
+3/23/2026 15:34,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,654.6,0,6,1.5,Glass,1,0.01,Wireless,-61,
+3/23/2026 15:35,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,639.4,0,7,1.5,Glass,1,0.01,Wireless,-61,
+3/23/2026 15:35,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,664.76,0,8,1.5,Glass,1,0.01,Wireless,-61,
+3/23/2026 15:36,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,648.66,0,9,1.5,Glass,1,0.01,Wireless,-61,
+3/23/2026 15:36,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,618.57,0,10,1.5,Glass,1,0.01,Wireless,-61,
+3/23/2026 15:42,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,621.34,0,1,1.5,Glass,1,0.01,Wireless,-41,
+3/23/2026 15:44,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,639.35,0,3,1.5,Glass,1,0.01,Wireless,-41,
+3/23/2026 15:44,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,654.77,0,4,1.5,Glass,1,0.01,Wireless,-41,
+3/23/2026 15:45,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,609.07,0,5,1.5,Glass,1,0.01,Wireless,-41,
+3/23/2026 15:46,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,626.24,0,6,1.5,Glass,1,0.01,Wireless,-41,
+3/23/2026 15:46,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,655.55,0,7,1.5,Glass,1,0.01,Wireless,-41,
+3/23/2026 15:47,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,630.15,0,8,1.5,Glass,1,0.01,Wireless,-41,
+3/23/2026 15:47,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,593.3,0,9,1.5,Glass,1,0.01,Wireless,-41,
+3/23/2026 15:48,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,601.52,0,10,1.5,Glass,1,0.01,Wireless,-41,
+3/23/2026 16:12,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,96.15,0,1,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 16:13,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,101.44,0,2,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 16:13,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,103.61,0,3,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 16:14,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,102.83,0,4,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 16:15,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,101.11,0,5,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 16:15,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,101.3,0,6,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 16:16,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,100.43,0,7,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 16:16,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,99.64,0,8,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 16:17,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,97.76,0,9,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 16:18,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,104.17,0,10,1.5,Glass,1,0.01,Wireless,-32,
+3/23/2026 16:27,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,36.69,0,1,1.5,Glass,1,0.01,Wireless,-32,-60
+3/23/2026 16:28,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,83.35,0,2,1.5,Glass,1,0.01,Wireless,-32,-60
+3/23/2026 16:28,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,13.24,0,3,1.5,Glass,1,0.01,Wireless,-32,-60
+3/23/2026 16:29,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,29.85,0,4,1.5,Glass,1,0.01,Wireless,-32,-60
+3/23/2026 16:30,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,82.53,0,5,1.5,Glass,1,0.01,Wireless,-32,-60
+3/23/2026 16:30,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,44.8,0,6,1.5,Glass,1,0.01,Wireless,-32,-60
+3/23/2026 16:31,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,71.46,0,7,1.5,Glass,1,0.01,Wireless,-32,-60
+3/23/2026 16:31,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,42.1,0,8,1.5,Glass,1,0.01,Wireless,-32,-60
+3/23/2026 16:32,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,64.31,0,9,1.5,Glass,1,0.01,Wireless,-32,-60
+3/23/2026 16:33,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,39.06,0,10,1.5,Glass,1,0.01,Wireless,-32,-60
+3/31/2026 15:58,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,683.33,0,1,1.5,Wood,1,0.075,Wireless,-58,
+3/31/2026 15:59,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,685.82,0,2,1.5,Wood,1,0.075,Wireless,-58,
+3/31/2026 16:00,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,670.7,0,3,1.5,Wood,1,0.075,Wireless,-58,
+3/31/2026 16:00,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,702.61,0,4,1.5,Wood,1,0.075,Wireless,-58,
+3/31/2026 16:01,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,695.31,0,5,1.5,Wood,1,0.075,Wireless,-58,
+3/31/2026 16:01,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,689.52,0,6,1.5,Wood,1,0.075,Wireless,-58,
+3/31/2026 16:02,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,697.28,0,7,1.5,Wood,1,0.075,Wireless,-58,
+3/31/2026 16:03,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,696.76,0,8,1.5,Wood,1,0.075,Wireless,-58,
+3/31/2026 16:03,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,702.59,0,9,1.5,Wood,1,0.075,Wireless,-58,
+3/31/2026 16:04,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,705.63,0,10,1.5,Wood,1,0.075,Wireless,-58,
+3/31/2026 16:13,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,555,0,1,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:14,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,553.43,0,2,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:14,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,552.39,0,3,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:15,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,620.62,0,4,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:15,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,568.44,0,5,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:16,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,573.17,0,6,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:17,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,594.36,0,7,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:17,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,553.16,0,8,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:18,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,599.39,0,9,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:18,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,615.78,0,10,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:31,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,70.17,0,1,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:32,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,89.94,0,2,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:32,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,85.07,0,3,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:33,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,87.48,0,4,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:33,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,95.71,0,5,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:34,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,92.1,0,6,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:34,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,67.86,0,7,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:35,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,96.18,0,8,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:36,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,91.72,0,9,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:36,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,72.6,0,10,1.5,Wood,1,0.075,Wireless,-41,
+3/31/2026 16:42,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,148.11,0,1,1.5,Wood,1,0.075,Wireless,-47,-13
+3/31/2026 16:42,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,27.19,0,2,1.5,Wood,1,0.075,Wireless,-47,-13
+3/31/2026 16:43,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,70.6,0,3,1.5,Wood,1,0.075,Wireless,-47,-13
+3/31/2026 16:43,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,124.51,0,4,1.5,Wood,1,0.075,Wireless,-47,-13
+3/31/2026 16:44,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,111.42,0,5,1.5,Wood,1,0.075,Wireless,-47,-13
+3/31/2026 16:45,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,102.51,0,6,1.5,Wood,1,0.075,Wireless,-47,-13
+3/31/2026 16:45,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,28.58,0,7,1.5,Wood,1,0.075,Wireless,-47,-13
+3/31/2026 16:46,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,156.03,0,8,1.5,Wood,1,0.075,Wireless,-47,-13
+3/31/2026 16:46,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,133.31,0,9,1.5,Wood,1,0.075,Wireless,-47,-13
+3/31/2026 16:47,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,97.08,0,10,1.5,Wood,1,0.075,Wireless,-47,-13
+3/4/2026 21:17,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,650.93,0,1,3,,0,0,Wireless,-49,
+3/4/2026 21:17,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,690.97,0,2,3,,0,0,Wireless,-49,
+3/4/2026 21:18,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,686.47,0,3,3,,0,0,Wireless,-49,
+3/4/2026 21:19,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,652.85,0,4,3,,0,0,Wireless,-49,
+3/4/2026 21:19,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,667.33,0,5,3,,0,0,Wireless,-49,
+3/4/2026 21:20,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,635.94,0,6,3,,0,0,Wireless,-49,
+3/4/2026 21:20,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,678.28,0,7,3,,0,0,Wireless,-49,
+3/4/2026 21:21,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,652.12,0,8,3,,0,0,Wireless,-49,
+3/4/2026 21:22,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,661.48,0,9,3,,0,0,Wireless,-49,
+3/4/2026 21:22,Uni-LOS,3m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,656.01,0,10,3,,0,0,Wireless,-49,
+3/4/2026 21:26,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,638.72,0,1,3,,0,0,Wireless,-35,
+3/4/2026 21:26,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,627.91,0,2,3,,0,0,Wireless,-35,
+3/4/2026 21:27,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,668.39,0,3,3,,0,0,Wireless,-35,
+3/4/2026 21:28,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,682.52,0,4,3,,0,0,Wireless,-35,
+3/4/2026 21:28,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,678.06,0,5,3,,0,0,Wireless,-35,
+3/4/2026 21:29,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,645.01,0,6,3,,0,0,Wireless,-35,
+3/4/2026 21:29,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,661.74,0,7,3,,0,0,Wireless,-35,
+3/4/2026 21:30,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,667.3,0,8,3,,0,0,Wireless,-35,
+3/4/2026 21:30,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,666.35,0,9,3,,0,0,Wireless,-35,
+3/4/2026 21:31,Uni-LOS,3m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,5,,,,4,662.55,0,10,3,,0,0,Wireless,-35,
+3/4/2026 21:35,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,81.39,0,1,3,,0,0,Wireless,-36,
+3/4/2026 21:36,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,70.94,0,2,3,,0,0,Wireless,-36,
+3/4/2026 21:37,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,83.15,0,3,3,,0,0,Wireless,-36,
+3/4/2026 21:37,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,90.76,0,4,3,,0,0,Wireless,-36,
+3/4/2026 21:38,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,84.86,0,5,3,,0,0,Wireless,-36,
+3/4/2026 21:38,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,89.01,0,6,3,,0,0,Wireless,-36,
+3/4/2026 21:39,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,89.93,0,7,3,,0,0,Wireless,-36,
+3/4/2026 21:40,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,88.23,0,8,3,,0,0,Wireless,-36,
+3/4/2026 21:40,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,87.05,0,9,3,,0,0,Wireless,-36,
+3/4/2026 21:41,Uni-LOS,3m Uni LOS 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,1,8,,,,4,91.93,0,10,3,,0,0,Wireless,-36,
 3/4/2026 21:45,Uni-LOS,3m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,291.2,0,1,3,,0,0,Wireless,-29,-50
 3/4/2026 21:46,Uni-LOS,3m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,192.36,0,2,3,,0,0,Wireless,-29,-50
 3/4/2026 21:47,Uni-LOS,3m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,73.11,0,3,3,,0,0,Wireless,-29,-50
@@ -359,85 +422,22 @@ Timestamp,Environment,Scenario,Mode,PrimaryChannel,PrimaryBand,PrimaryWidth_MHz,
 3/4/2026 21:50,Uni-LOS,3m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,421.84,0,8,3,,0,0,Wireless,-29,-50
 3/4/2026 21:50,Uni-LOS,3m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,312.56,0,9,3,,0,0,Wireless,-29,-50
 3/4/2026 21:51,Uni-LOS,3m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,290.99,0,10,3,,0,0,Wireless,-29,-50
-3/23/2026 16:51,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,613.88,0,1,4.5,,0,0,Wireless,,
-3/23/2026 16:51,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,664.57,0,2,4.5,,0,0,Wireless,,
-3/23/2026 16:52,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,670.36,0,3,4.5,,0,0,Wireless,,
-3/23/2026 16:52,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,673.44,0,4,4.5,,0,0,Wireless,,
-3/23/2026 16:53,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,666.73,0,5,4.5,,0,0,Wireless,,
-3/23/2026 16:54,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,654.85,0,6,4.5,,0,0,Wireless,,
-3/23/2026 16:54,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,644.86,0,7,4.5,,0,0,Wireless,,
-3/23/2026 16:55,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,673.63,0,8,4.5,,0,0,Wireless,,
-3/23/2026 16:55,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,652.92,0,9,4.5,,0,0,Wireless,,
-3/23/2026 16:56,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,648.11,0,10,4.5,,0,0,Wireless,,
-3/23/2026 17:02,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,528.91,0,1,4.5,,0,0,Wireless,,
-3/23/2026 17:03,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,589.83,0,2,4.5,,0,0,Wireless,,
-3/23/2026 17:03,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,560.89,0,3,4.5,,0,0,Wireless,,
-3/23/2026 17:04,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,577.61,0,4,4.5,,0,0,Wireless,,
-3/23/2026 17:05,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,592.46,0,5,4.5,,0,0,Wireless,,
-3/23/2026 17:05,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,580.68,0,6,4.5,,0,0,Wireless,,
-3/23/2026 17:06,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,581.52,0,7,4.5,,0,0,Wireless,,
-3/23/2026 17:06,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,571.07,0,8,4.5,,0,0,Wireless,,
-3/23/2026 17:07,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,684.94,0,9,4.5,,0,0,Wireless,,
-3/23/2026 17:08,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,632.45,0,10,4.5,,0,0,Wireless,,
-3/23/2026 17:12,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,49.11,0,1,4.5,,0,0,Wireless,,
-3/23/2026 17:12,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,68.76,0,2,4.5,,0,0,Wireless,,
-3/23/2026 17:13,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,56.93,0,3,4.5,,0,0,Wireless,,
-3/23/2026 17:14,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,73.8,0,4,4.5,,0,0,Wireless,,
-3/23/2026 17:14,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,71.19,0,5,4.5,,0,0,Wireless,,
-3/23/2026 17:15,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,68.35,0,6,4.5,,0,0,Wireless,,
-3/23/2026 17:15,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,65.76,0,7,4.5,,0,0,Wireless,,
-3/23/2026 17:16,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,54.68,0,8,4.5,,0,0,Wireless,,
-3/23/2026 17:16,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,52,0,9,4.5,,0,0,Wireless,,
-3/23/2026 17:17,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,68.42,0,10,4.5,,0,0,Wireless,,
-3/23/2026 17:23,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,21.15,0,1,4.5,,0,0,Wireless,0,-46
-3/23/2026 17:24,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,34.53,0,2,4.5,,0,0,Wireless,0,-46
-3/23/2026 17:25,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,137.96,0,3,4.5,,0,0,Wireless,0,-46
-3/23/2026 17:25,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,19.64,0,4,4.5,,0,0,Wireless,0,-46
-3/23/2026 17:26,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,142.77,0,5,4.5,,0,0,Wireless,0,-46
-3/23/2026 17:27,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,110.13,0,6,4.5,,0,0,Wireless,0,-46
-3/23/2026 17:29,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,227.18,0,8,4.5,,0,0,Wireless,0,-46
-3/23/2026 17:30,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,227.96,0,9,4.5,,0,0,Wireless,0,-46
-3/23/2026 17:30,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,284.64,0,10,4.5,,0,0,Wireless,0,-46
-3/23/2026 17:36,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,665.36,0,1,6,,0,0,Wireless,,
-3/23/2026 17:37,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,669.44,0,2,6,,0,0,Wireless,,
-3/23/2026 17:37,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,690.12,0,3,6,,0,0,Wireless,,
-3/23/2026 17:38,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,690.39,0,4,6,,0,0,Wireless,,
-3/23/2026 17:39,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,694.13,0,5,6,,0,0,Wireless,,
-3/23/2026 17:39,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,670.1,0,6,6,,0,0,Wireless,,
-3/23/2026 17:40,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,678.61,0,7,6,,0,0,Wireless,,
-3/23/2026 17:41,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,696.14,0,8,6,,0,0,Wireless,,
-3/23/2026 17:41,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,692.28,0,9,6,,0,0,Wireless,,
-3/23/2026 17:42,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,696.09,0,10,6,,0,0,Wireless,,
-3/23/2026 17:47,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,661.92,0,1,6,,0,0,Wireless,,
-3/23/2026 17:47,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,651.1,0,2,6,,0,0,Wireless,,
-3/23/2026 17:48,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,650.51,0,3,6,,0,0,Wireless,,
-3/23/2026 17:49,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,653.64,0,4,6,,0,0,Wireless,,
-3/23/2026 17:49,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,633.3,0,5,6,,0,0,Wireless,,
-3/23/2026 17:50,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,657.76,0,6,6,,0,0,Wireless,,
-3/23/2026 17:50,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,656.82,0,7,6,,0,0,Wireless,,
-3/23/2026 17:51,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,668.7,0,8,6,,0,0,Wireless,,
-3/23/2026 17:52,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,666.22,0,9,6,,0,0,Wireless,,
-3/23/2026 17:52,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,683.79,0,10,6,,0,0,Wireless,,
-3/23/2026 17:56,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,36.83,0,1,6,,0,0,Wireless,,
-3/23/2026 17:56,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,39.44,0,2,6,,0,0,Wireless,,
-3/23/2026 17:57,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,41.58,0,3,6,,0,0,Wireless,,
-3/23/2026 17:58,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,39.16,0,4,6,,0,0,Wireless,,
-3/23/2026 17:58,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,31.98,0,5,6,,0,0,Wireless,,
-3/23/2026 17:59,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,31.48,0,6,6,,0,0,Wireless,,
-3/23/2026 17:59,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,36.56,0,7,6,,0,0,Wireless,,
-3/23/2026 18:00,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,43.48,0,8,6,,0,0,Wireless,,
-3/23/2026 18:01,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,43.25,0,9,6,,0,0,Wireless,,
-3/23/2026 18:01,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,41.44,0,10,6,,0,0,Wireless,,
-3/23/2026 18:06,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,159.22,0,1,6,,0,0,Wireless,0,-47
-3/23/2026 18:06,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,55.57,0,2,6,,0,0,Wireless,0,-47
-3/23/2026 18:07,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,29.77,0,3,6,,0,0,Wireless,0,-47
-3/23/2026 18:08,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,96.52,0,4,6,,0,0,Wireless,0,-47
-3/23/2026 18:08,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,195.21,0,5,6,,0,0,Wireless,0,-47
-3/23/2026 18:09,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,83.73,0,6,6,,0,0,Wireless,0,-47
-3/23/2026 18:09,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,181.52,0,7,6,,0,0,Wireless,0,-47
-3/23/2026 18:10,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,92.83,0,8,6,,0,0,Wireless,0,-47
-3/23/2026 18:11,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,223.47,0,9,6,,0,0,Wireless,0,-47
-3/23/2026 18:11,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,42,0,10,6,,0,0,Wireless,0,-47
+4/9/2026 19:36,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,65.62,0,1,3.8,Steel,1,0.45,Wireless,-50,
+4/9/2026 19:37,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,73.12,0,2,3.8,Steel,1,0.45,Wireless,-50,
+4/9/2026 19:38,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,71.87,0,3,3.8,Steel,1,0.45,Wireless,-50,
+4/9/2026 19:38,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,78.52,0,4,3.8,Steel,1,0.45,Wireless,-50,
+4/9/2026 19:39,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,24.67,0,5,3.8,Steel,1,0.45,Wireless,-50,
+4/9/2026 19:39,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,9.86,0,6,3.8,Steel,1,0.45,Wireless,-50,
+4/9/2026 19:41,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,9.47,0,9,3.8,Steel,1,0.45,Wireless,-50,
+4/9/2026 19:46,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,258.16,0,1,3.8,Steel,1,0.45,Wireless,-62,
+4/9/2026 19:46,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,274.51,0,2,3.8,Steel,1,0.45,Wireless,-62,
+4/9/2026 19:47,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,280.84,0,3,3.8,Steel,1,0.45,Wireless,-62,
+4/9/2026 19:47,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,310.45,0,4,3.8,Steel,1,0.45,Wireless,-62,
+4/9/2026 19:48,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,246.56,0,5,3.8,Steel,1,0.45,Wireless,-62,
+4/9/2026 19:49,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,269.95,0,6,3.8,Steel,1,0.45,Wireless,-62,
+4/9/2026 19:49,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,284.3,0,7,3.8,Steel,1,0.45,Wireless,-62,
+4/9/2026 19:50,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,257.74,0,8,3.8,Steel,1,0.45,Wireless,-62,
+4/9/2026 19:50,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,237.19,0,9,3.8,Steel,1,0.45,Wireless,-62,
 2/26/2026 14:55,Home-LOS,6m Home LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,712.35,0,1,6,,0,0,Wireless,-61,
 2/26/2026 14:56,Home-LOS,6m Home LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,724.28,0,2,6,,0,0,Wireless,-61,
 2/26/2026 14:56,Home-LOS,6m Home LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,728.34,0,3,6,,0,0,Wireless,-61,
@@ -478,43 +478,43 @@ Timestamp,Environment,Scenario,Mode,PrimaryChannel,PrimaryBand,PrimaryWidth_MHz,
 2/26/2026 16:04,Home-LOS,6m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,529.88,0,8,6,,0,0,Wireless,-47,-49
 2/26/2026 16:04,Home-LOS,6m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,417.18,0,9,6,,0,0,Wireless,-47,-49
 2/26/2026 16:05,Home-LOS,6m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,419.07,0,10,6,,0,0,Wireless,-47,-49
-4/9/2026 19:36,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,65.62,0,1,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:37,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,73.12,0,2,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:38,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,71.87,0,3,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:38,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,78.52,0,4,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:39,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,24.67,0,5,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:39,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,9.86,0,6,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:41,Uni-Wall,3.8m Uni Wall 1 Steel 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,8,,,,4,9.47,0,9,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:46,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,258.16,0,1,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:46,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,274.51,0,2,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:47,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,280.84,0,3,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:47,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,310.45,0,4,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:48,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,246.56,0,5,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:49,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,269.95,0,6,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:49,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,284.3,0,7,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:50,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,257.74,0,8,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:50,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,237.19,0,9,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 19:51,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,252.26,0,10,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:02,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,123.92,0,1,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:03,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,155.22,0,2,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:03,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,139.72,0,3,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:04,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,132.86,0,4,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:04,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,134.17,0,5,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:05,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,137.73,0,6,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:06,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,125.31,0,7,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:06,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,139.91,0,8,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:07,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,137.36,0,9,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:07,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,116.19,0,10,3.8,Steel,1,0.45,Wireless,,
-4/9/2026 20:17,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,194.4,0,1,3.8,Steel,1,0.45,Wireless,-34,-6
-4/9/2026 20:17,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,218.08,0,2,3.8,Steel,1,0.45,Wireless,-34,-6
-4/9/2026 20:18,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,223.07,0,3,3.8,Steel,1,0.45,Wireless,-34,-6
-4/9/2026 20:19,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,236.66,0,4,3.8,Steel,1,0.45,Wireless,-34,-6
-4/9/2026 20:19,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,230.68,0,5,3.8,Steel,1,0.45,Wireless,-34,-6
-4/9/2026 20:20,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,191.41,0,6,3.8,Steel,1,0.45,Wireless,-34,-6
-4/9/2026 20:20,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,133.58,0,7,3.8,Steel,1,0.45,Wireless,-34,-6
-4/9/2026 20:21,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,186.77,0,8,3.8,Steel,1,0.45,Wireless,-34,-6
-4/9/2026 20:22,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,178.03,0,9,3.8,Steel,1,0.45,Wireless,-34,-6
-4/9/2026 20:22,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,181.75,0,10,3.8,Steel,1,0.45,Wireless,-34,-6
+4/9/2026 19:51,Uni-Wall,3.8m Uni Wall 1 Steel 5GHz Wireless,Standard,44,5GHz,160,2882,,,,,0,0,9,,,,4,252.26,0,10,3.8,Steel,1,0.45,Wireless,-62,
+4/9/2026 20:02,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,123.92,0,1,3.8,Steel,1,0.45,Wireless,-85,
+4/9/2026 20:03,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,155.22,0,2,3.8,Steel,1,0.45,Wireless,-85,
+4/9/2026 20:03,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,139.72,0,3,3.8,Steel,1,0.45,Wireless,-85,
+4/9/2026 20:04,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,132.86,0,4,3.8,Steel,1,0.45,Wireless,-85,
+4/9/2026 20:04,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,134.17,0,5,3.8,Steel,1,0.45,Wireless,-85,
+4/9/2026 20:05,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,137.73,0,6,3.8,Steel,1,0.45,Wireless,-85,
+4/9/2026 20:06,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,125.31,0,7,3.8,Steel,1,0.45,Wireless,-85,
+4/9/2026 20:06,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,139.91,0,8,3.8,Steel,1,0.45,Wireless,-85,
+4/9/2026 20:07,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,137.36,0,9,3.8,Steel,1,0.45,Wireless,-85,
+4/9/2026 20:07,Uni-Wall,3.8m Uni Wall 1 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,116.19,0,10,3.8,Steel,1,0.45,Wireless,-85,
+4/9/2026 20:17,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,194.4,0,1,3.8,Steel,1,0.45,Wireless,-51,-60
+4/9/2026 20:17,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,218.08,0,2,3.8,Steel,1,0.45,Wireless,-51,-60
+4/9/2026 20:18,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,223.07,0,3,3.8,Steel,1,0.45,Wireless,-51,-60
+4/9/2026 20:19,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,236.66,0,4,3.8,Steel,1,0.45,Wireless,-51,-60
+4/9/2026 20:19,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,230.68,0,5,3.8,Steel,1,0.45,Wireless,-51,-60
+4/9/2026 20:20,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,191.41,0,6,3.8,Steel,1,0.45,Wireless,-51,-60
+4/9/2026 20:20,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,133.58,0,7,3.8,Steel,1,0.45,Wireless,-51,-60
+4/9/2026 20:21,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,186.77,0,8,3.8,Steel,1,0.45,Wireless,-51,-60
+4/9/2026 20:22,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,178.03,0,9,3.8,Steel,1,0.45,Wireless,-51,-60
+4/9/2026 20:22,Uni-Wall,3.8m Uni Wall 1 Steel MLO Wireless,MLO,1,2.4GHz,40,720.5,157,5GHz,80,720.5,0,0,8,5,0,8,8,181.75,0,10,3.8,Steel,1,0.45,Wireless,-51,-60
+3/23/2026 16:51,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,613.88,0,1,4.5,,0,0,Wireless,-62,
+3/23/2026 16:51,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,664.57,0,2,4.5,,0,0,Wireless,-62,
+3/23/2026 16:52,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,670.36,0,3,4.5,,0,0,Wireless,-62,
+3/23/2026 16:52,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,673.44,0,4,4.5,,0,0,Wireless,-62,
+3/23/2026 16:53,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,666.73,0,5,4.5,,0,0,Wireless,-62,
+3/23/2026 16:54,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,654.85,0,6,4.5,,0,0,Wireless,-62,
+3/23/2026 16:54,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,644.86,0,7,4.5,,0,0,Wireless,-62,
+3/23/2026 16:55,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,673.63,0,8,4.5,,0,0,Wireless,-62,
+3/23/2026 16:55,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,652.92,0,9,4.5,,0,0,Wireless,-62,
+3/23/2026 16:56,Uni-LOS,4.5m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,7,,,,4,648.11,0,10,4.5,,0,0,Wireless,-62,
+3/23/2026 17:02,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,528.91,0,1,4.5,,0,0,Wireless,-40,
+3/23/2026 17:03,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,589.83,0,2,4.5,,0,0,Wireless,-40,
+3/23/2026 17:03,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,560.89,0,3,4.5,,0,0,Wireless,-40,
+3/23/2026 17:04,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,577.61,0,4,4.5,,0,0,Wireless,-40,
+3/23/2026 17:05,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,592.46,0,5,4.5,,0,0,Wireless,-40,
+3/23/2026 17:05,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,580.68,0,6,4.5,,0,0,Wireless,-40,
 2/26/2026 16:58,Home-LOS,12m Home LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,659.97,0,1,12,,0,0,Wireless,,
 2/26/2026 16:59,Home-LOS,12m Home LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,681.59,0,2,12,,0,0,Wireless,,
 2/26/2026 16:59,Home-LOS,12m Home LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,682.5,0,3,12,,0,0,Wireless,,
@@ -555,226 +555,226 @@ Timestamp,Environment,Scenario,Mode,PrimaryChannel,PrimaryBand,PrimaryWidth_MHz,
 2/26/2026 17:56,Home-LOS,12m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,9,0,0,9,8,147.55,0,8,12,,0,0,Wireless,,
 2/26/2026 17:56,Home-LOS,12m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,9,0,0,9,8,106.75,0,9,12,,0,0,Wireless,,
 2/26/2026 17:57,Home-LOS,12m Home LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,2,1,9,0,0,9,8,136.19,0,10,12,,0,0,Wireless,,
+3/23/2026 17:06,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,581.52,0,7,4.5,,0,0,Wireless,-40,
+3/23/2026 17:06,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,571.07,0,8,4.5,,0,0,Wireless,-40,
+3/23/2026 17:07,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,684.94,0,9,4.5,,0,0,Wireless,-40,
+3/23/2026 17:08,Uni-LOS,4.5m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,632.45,0,10,4.5,,0,0,Wireless,-40,
+3/23/2026 17:12,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,49.11,0,1,4.5,,0,0,Wireless,-42,
+3/23/2026 17:12,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,68.76,0,2,4.5,,0,0,Wireless,-42,
+3/23/2026 17:13,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,56.93,0,3,4.5,,0,0,Wireless,-42,
+3/23/2026 17:14,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,73.8,0,4,4.5,,0,0,Wireless,-42,
+3/23/2026 17:14,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,71.19,0,5,4.5,,0,0,Wireless,-42,
+3/23/2026 17:15,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,68.35,0,6,4.5,,0,0,Wireless,-42,
+3/23/2026 17:15,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,65.76,0,7,4.5,,0,0,Wireless,-42,
+3/23/2026 17:16,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,54.68,0,8,4.5,,0,0,Wireless,-42,
+3/23/2026 17:16,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,52,0,9,4.5,,0,0,Wireless,-42,
+3/23/2026 17:17,Uni-LOS,4.5m Uni LOS 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,1,7,,,,4,68.42,0,10,4.5,,0,0,Wireless,-42,
+3/23/2026 17:23,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,21.15,0,1,4.5,,0,0,Wireless,-45,-58
+3/23/2026 17:24,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,34.53,0,2,4.5,,0,0,Wireless,-45,-58
+3/23/2026 17:25,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,137.96,0,3,4.5,,0,0,Wireless,-45,-58
+3/23/2026 17:25,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,19.64,0,4,4.5,,0,0,Wireless,-45,-58
+3/23/2026 17:26,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,142.77,0,5,4.5,,0,0,Wireless,-45,-58
+3/23/2026 17:27,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,110.13,0,6,4.5,,0,0,Wireless,-45,-58
+3/23/2026 17:29,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,227.18,0,8,4.5,,0,0,Wireless,-45,-58
+3/23/2026 17:30,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,227.96,0,9,4.5,,0,0,Wireless,-45,-58
+3/23/2026 17:30,Uni-LOS,4.5m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,8,0,0,8,8,284.64,0,10,4.5,,0,0,Wireless,-45,-58
 4/9/2026 20:58,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,57.06,0,1,4.5,Wood,2,0.075,Wireless,-50,
-4/9/2026 20:58,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,58.48,0,2,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 20:59,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,62.58,0,3,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 20:59,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,61.99,0,4,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:00,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,66.11,0,5,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:01,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,62.98,0,6,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:01,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,55.21,0,7,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:02,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,66.37,0,8,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:02,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,66.9,0,9,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:03,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,57.31,0,10,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:05,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,668.85,0,1,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:06,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,641.97,0,2,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:06,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,662.16,0,3,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:07,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,669.14,0,4,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:08,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,663.36,0,5,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:08,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,635.43,0,6,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:09,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,623.48,0,7,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:09,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,650.79,0,8,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:10,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,587.85,0,9,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:11,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,638.28,0,10,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:16,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,550.39,0,1,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:16,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,565.55,0,2,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:17,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,553.86,0,3,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:17,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,540.54,0,4,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:18,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,564.28,0,5,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:19,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,558.64,0,6,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:19,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,562.87,0,7,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:20,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,550.81,0,8,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:20,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,549.71,0,9,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:21,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,552.64,0,10,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:29,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,163.43,0,1,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:30,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,149.39,0,2,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:31,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,259.93,0,3,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:31,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,112.63,0,4,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:32,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,157.23,0,5,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:32,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,167.54,0,6,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:33,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,87.75,0,7,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:34,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,108.03,0,8,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:34,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,119.4,0,9,4.5,Wood,2,0.075,Wireless,,
-4/9/2026 21:35,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,179.99,0,10,4.5,Wood,2,0.075,Wireless,,
-3/17/2026 14:56,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,569.04,0,1,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 14:57,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,592.92,0,2,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 14:57,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,570.68,0,3,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 14:58,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,627.46,0,4,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 14:59,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,604.36,0,5,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 14:59,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,623.79,0,6,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:00,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,619.33,0,7,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:00,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,636.97,0,8,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:01,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,597.5,0,9,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:02,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,572.83,0,10,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:20,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,641.08,0,1,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:20,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,677.6,0,2,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:21,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,663.36,0,3,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:22,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,658.63,0,4,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:22,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,626.89,0,5,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:23,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,591.99,0,6,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:23,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,579.67,0,7,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:24,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,671.16,0,8,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:24,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,659.31,0,9,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:25,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,1,7,,,,4,658.82,0,10,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:32,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,1,0,6,,,,4,53.69,0,1,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:38,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,0,,,,4,60.73,0,1,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:39,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,0,,,,4,79.87,0,2,1.5,Glass,1,0.01,Wireless,,
-3/17/2026 15:39,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,7,2.4GHz,20,344,,,,,0,0,0,,,,4,77.66,0,3,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:31,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,617.74,0,1,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:32,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,653.18,0,2,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:32,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,671.7,0,3,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:33,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,669.26,0,4,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:33,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,649.61,0,5,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:34,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,654.6,0,6,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:35,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,639.4,0,7,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:35,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,664.76,0,8,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:36,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,648.66,0,9,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:36,Uni-Wall,1.5m Uni Wall 1 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,6,,,,4,618.57,0,10,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:42,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,621.34,0,1,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:44,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,639.35,0,3,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:44,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,654.77,0,4,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:45,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,609.07,0,5,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:46,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,626.24,0,6,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:46,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,655.55,0,7,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:47,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,630.15,0,8,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:47,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,593.3,0,9,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 15:48,Uni-Wall,1.5m Uni Wall 1 Glass 5GHz Wireless,Standard,48,5GHz,160,2882,,,,,0,0,6,,,,4,601.52,0,10,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:12,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,96.15,0,1,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:13,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,101.44,0,2,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:13,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,103.61,0,3,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:14,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,102.83,0,4,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:15,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,101.11,0,5,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:15,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,101.3,0,6,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:16,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,100.43,0,7,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:16,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,99.64,0,8,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:17,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,97.76,0,9,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:18,Uni-Wall,1.5m Uni Wall 1 Glass 2.4GHz Wireless,Standard,10,2.4GHz,20,344,,,,,0,0,3,,,,4,104.17,0,10,1.5,Glass,1,0.01,Wireless,,
-3/23/2026 16:27,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,36.69,0,1,1.5,Glass,1,0.01,Wireless,-59,0
-3/23/2026 16:28,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,83.35,0,2,1.5,Glass,1,0.01,Wireless,-59,0
-3/23/2026 16:28,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,13.24,0,3,1.5,Glass,1,0.01,Wireless,-59,0
-3/23/2026 16:29,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,29.85,0,4,1.5,Glass,1,0.01,Wireless,-59,0
-3/23/2026 16:30,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,82.53,0,5,1.5,Glass,1,0.01,Wireless,-59,0
-3/23/2026 16:30,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,44.8,0,6,1.5,Glass,1,0.01,Wireless,-59,0
-3/23/2026 16:31,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,71.46,0,7,1.5,Glass,1,0.01,Wireless,-59,0
-3/23/2026 16:31,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,42.1,0,8,1.5,Glass,1,0.01,Wireless,-59,0
-3/23/2026 16:32,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,64.31,0,9,1.5,Glass,1,0.01,Wireless,-59,0
-3/23/2026 16:33,Uni-Wall,1.5m Uni Wall 1 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,39.06,0,10,1.5,Glass,1,0.01,Wireless,-59,0
-3/31/2026 15:58,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,683.33,0,1,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 15:59,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,685.82,0,2,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:00,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,670.7,0,3,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:00,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,702.61,0,4,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:01,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,695.31,0,5,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:01,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,689.52,0,6,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:02,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,697.28,0,7,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:03,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,696.76,0,8,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:03,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,702.59,0,9,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:04,Uni-Wall,1.5m Uni Wall 1 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,5,,,,4,705.63,0,10,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:13,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,555,0,1,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:14,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,553.43,0,2,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:14,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,552.39,0,3,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:15,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,620.62,0,4,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:15,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,568.44,0,5,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:16,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,573.17,0,6,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:17,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,594.36,0,7,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:17,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,553.16,0,8,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:18,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,599.39,0,9,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:18,Uni-Wall,1.5m Uni Wall 1 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,615.78,0,10,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:31,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,70.17,0,1,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:32,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,89.94,0,2,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:32,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,85.07,0,3,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:33,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,87.48,0,4,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:33,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,95.71,0,5,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:34,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,92.1,0,6,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:34,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,67.86,0,7,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:35,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,96.18,0,8,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:36,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,91.72,0,9,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:36,Uni-Wall,1.5m Uni Wall 1 Wood 2.4GHz Wireless,Standard,2,2.4GHz,20,344,,,,,0,5,7,,,,4,72.6,0,10,1.5,Wood,1,0.075,Wireless,,
-3/31/2026 16:42,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,148.11,0,1,1.5,Wood,1,0.075,Wireless,-47,-13
-3/31/2026 16:42,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,27.19,0,2,1.5,Wood,1,0.075,Wireless,-47,-13
-3/31/2026 16:43,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,70.6,0,3,1.5,Wood,1,0.075,Wireless,-47,-13
-3/31/2026 16:43,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,124.51,0,4,1.5,Wood,1,0.075,Wireless,-47,-13
-3/31/2026 16:44,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,111.42,0,5,1.5,Wood,1,0.075,Wireless,-47,-13
-3/31/2026 16:45,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,102.51,0,6,1.5,Wood,1,0.075,Wireless,-47,-13
-3/31/2026 16:45,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,28.58,0,7,1.5,Wood,1,0.075,Wireless,-47,-13
-3/31/2026 16:46,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,156.03,0,8,1.5,Wood,1,0.075,Wireless,-47,-13
-3/31/2026 16:46,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,133.31,0,9,1.5,Wood,1,0.075,Wireless,-47,-13
-3/31/2026 16:47,Uni-Wall,1.5m Uni Wall 1 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,0,5,0,0,5,8,97.08,0,10,1.5,Wood,1,0.075,Wireless,-47,-13
-4/15/2026 14:00,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,613.47,0,1,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:00,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,594.46,0,2,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:01,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,617.98,0,3,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:02,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,644.18,0,4,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:03,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,591.59,0,5,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:03,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,591.59,0,6,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:04,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,645.86,0,7,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:05,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,621.57,0,8,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:06,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,584.55,0,9,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:06,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,614.84,0,10,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:10,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,533.4,0,1,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:11,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,533.33,0,2,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:12,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,552.66,0,3,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:12,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,493.81,0,4,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:13,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,498.95,0,5,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:14,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,530.7,0,6,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:15,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,518.4,0,7,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:15,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,554.63,0,8,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:16,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,521.26,0,9,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:17,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,507.49,0,10,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:21,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,73.11,0,1,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:21,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,55.5,0,2,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:22,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,58.55,0,3,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:23,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,43.01,0,4,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:24,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,52.18,0,5,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:24,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,59,0,6,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:25,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,45.86,0,7,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:26,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,61.76,0,8,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:27,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,51.59,0,9,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:27,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,54.81,0,10,6,Glass,2,0.01,Wireless,,
-4/15/2026 14:31,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,7.08,0,1,6,Glass,2,0.01,Wireless,-50,-55
-4/15/2026 14:32,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,13.45,0,2,6,Glass,2,0.01,Wireless,-50,-55
-4/15/2026 14:33,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,8.61,0,3,6,Glass,2,0.01,Wireless,-50,-55
-4/15/2026 14:33,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,5.9,0,4,6,Glass,2,0.01,Wireless,-50,-55
-4/15/2026 14:34,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,10.78,0,5,6,Glass,2,0.01,Wireless,-50,-55
-4/15/2026 14:35,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,5.48,0,6,6,Glass,2,0.01,Wireless,-50,-55
-4/15/2026 14:36,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,9.19,0,7,6,Glass,2,0.01,Wireless,-50,-55
-4/15/2026 14:36,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,3.56,0,8,6,Glass,2,0.01,Wireless,-50,-55
-4/15/2026 14:37,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,5.2,0,9,6,Glass,2,0.01,Wireless,-50,-55
-4/15/2026 14:38,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,9.16,0,10,6,Glass,2,0.01,Wireless,-50,-55
-4/16/2026 11:00,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,28.32,0,1,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:00,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,27.55,0,2,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:01,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,27.16,0,3,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:02,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,26.9,0,4,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:03,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,25.3,0,5,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:03,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,26.33,0,6,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:04,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,26.69,0,7,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:05,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,28.76,0,8,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:06,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,27.78,0,9,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:06,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,24.91,0,10,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:10,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,110.35,0,1,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:11,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,106.5,0,2,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:12,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,104.92,0,3,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:12,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,111.91,0,4,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:13,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,114.19,0,5,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:14,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,113.65,0,6,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:15,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,104.03,0,7,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:15,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,106.91,0,8,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:16,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,110.39,0,9,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:17,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,113.89,0,10,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:21,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,24.06,0,1,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:21,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,25.45,0,2,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:22,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,21.09,0,3,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:23,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,20.66,0,4,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:24,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,30.18,0,5,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:24,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,32.76,0,6,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:25,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,25.99,0,7,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:26,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,31.09,0,8,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:27,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,28.04,0,9,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:27,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,23.27,0,10,4.5,Steel,2,0.45,Wireless,,
-4/16/2026 11:31,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,23.76,0,1,4.5,Steel,2,0.45,Wireless,-63,-81
-4/16/2026 11:32,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,31.33,0,2,4.5,Steel,2,0.45,Wireless,-63,-81
-4/16/2026 11:33,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,21.21,0,3,4.5,Steel,2,0.45,Wireless,-63,-81
-4/16/2026 11:33,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,31.5,0,4,4.5,Steel,2,0.45,Wireless,-63,-81
-4/16/2026 11:34,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,4.59,0,5,4.5,Steel,2,0.45,Wireless,-63,-81
-4/16/2026 11:35,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,26.73,0,6,4.5,Steel,2,0.45,Wireless,-63,-81
-4/16/2026 11:36,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,22,0,7,4.5,Steel,2,0.45,Wireless,-63,-81
-4/16/2026 11:36,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,19.52,0,8,4.5,Steel,2,0.45,Wireless,-63,-81
-4/16/2026 11:37,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,22.03,0,9,4.5,Steel,2,0.45,Wireless,-63,-81
-4/16/2026 11:38,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,8.66,0,10,4.5,Steel,2,0.45,Wireless,-63,-81
+4/9/2026 20:58,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,58.48,0,2,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 20:59,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,62.58,0,3,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 20:59,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,61.99,0,4,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:00,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,66.11,0,5,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:01,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,62.98,0,6,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:01,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,55.21,0,7,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:02,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,66.37,0,8,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:02,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,66.9,0,9,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:03,Uni-Wall,4.5m Uni Wall 2 Wood 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,5,11,,,,4,57.31,0,10,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:05,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,668.85,0,1,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:06,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,641.97,0,2,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:06,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,662.16,0,3,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:07,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,669.14,0,4,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:08,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,663.36,0,5,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:08,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,635.43,0,6,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:09,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,623.48,0,7,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:09,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,650.79,0,8,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:10,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,587.85,0,9,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:11,Uni-Wall,4.5m Uni Wall 2 Wood 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,10,,,,4,638.28,0,10,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:16,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,550.39,0,1,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:16,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,565.55,0,2,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:17,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,553.86,0,3,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:17,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,540.54,0,4,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:18,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,564.28,0,5,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:19,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,558.64,0,6,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:19,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,562.87,0,7,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:20,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,550.81,0,8,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:20,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,549.71,0,9,4.5,Wood,2,0.075,Wireless,-50,
+4/9/2026 21:21,Uni-Wall,4.5m Uni Wall 2 Wood 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,9,,,,4,552.64,0,10,4.5,Wood,2,0.075,Wireless,-51,-52
+4/9/2026 21:29,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,163.43,0,1,4.5,Wood,2,0.075,Wireless,-51,-52
+4/9/2026 21:30,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,149.39,0,2,4.5,Wood,2,0.075,Wireless,-51,-52
+4/9/2026 21:31,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,259.93,0,3,4.5,Wood,2,0.075,Wireless,-51,-52
+4/9/2026 21:31,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,112.63,0,4,4.5,Wood,2,0.075,Wireless,-51,-52
+4/9/2026 21:32,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,157.23,0,5,4.5,Wood,2,0.075,Wireless,-51,-52
+4/9/2026 21:32,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,167.54,0,6,4.5,Wood,2,0.075,Wireless,-51,-52
+4/9/2026 21:33,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,87.75,0,7,4.5,Wood,2,0.075,Wireless,-51,-52
+4/9/2026 21:34,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,108.03,0,8,4.5,Wood,2,0.075,Wireless,-51,-52
+4/9/2026 21:34,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,119.4,0,9,4.5,Wood,2,0.075,Wireless,-51,-52
+4/9/2026 21:35,Uni-Wall,4.5m Uni Wall 2 Wood MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,5,7,0,0,7,8,179.99,0,10,4.5,Wood,2,0.075,Wireless,-51,-52
+4/16/2026 11:00,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,28.32,0,1,7.6,Steel,2,0.45,Wireless,-81,
+4/16/2026 11:00,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,27.55,0,2,7.6,Steel,2,0.45,Wireless,-81,
+4/16/2026 11:01,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,27.16,0,3,7.6,Steel,2,0.45,Wireless,-81,
+4/16/2026 11:02,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,26.9,0,4,7.6,Steel,2,0.45,Wireless,-81,
+4/16/2026 11:03,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,25.3,0,5,7.6,Steel,2,0.45,Wireless,-81,
+4/16/2026 11:03,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,26.33,0,6,7.6,Steel,2,0.45,Wireless,-81,
+4/16/2026 11:04,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,26.69,0,7,7.6,Steel,2,0.45,Wireless,-81,
+4/16/2026 11:05,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,28.76,0,8,7.6,Steel,2,0.45,Wireless,-81,
+4/16/2026 11:06,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,27.78,0,9,7.6,Steel,2,0.45,Wireless,-81,
+4/16/2026 11:06,Uni-Wall,4.5m Uni Wall 2 Steel 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,24.91,0,10,7.6,Steel,2,0.45,Wireless,-81,
+4/16/2026 11:10,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,110.35,0,1,7.6,Steel,2,0.45,Wireless,-63,
+4/16/2026 11:11,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,106.5,0,2,7.6,Steel,2,0.45,Wireless,-63,
+4/16/2026 11:12,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,104.92,0,3,7.6,Steel,2,0.45,Wireless,-63,
+4/16/2026 11:12,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,111.91,0,4,7.6,Steel,2,0.45,Wireless,-63,
+4/16/2026 11:13,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,114.19,0,5,7.6,Steel,2,0.45,Wireless,-63,
+4/16/2026 11:14,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,113.65,0,6,7.6,Steel,2,0.45,Wireless,-63,
+4/16/2026 11:15,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,104.03,0,7,7.6,Steel,2,0.45,Wireless,-63,
+4/16/2026 11:15,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,106.91,0,8,7.6,Steel,2,0.45,Wireless,-63,
+4/16/2026 11:16,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,110.39,0,9,7.6,Steel,2,0.45,Wireless,-63,
+4/16/2026 11:17,Uni-Wall,4.5m Uni Wall 2 Steel 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,113.89,0,10,7.6,Steel,2,0.45,Wireless,-63,
+4/16/2026 11:21,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,24.06,0,1,7.6,Steel,2,0.45,Wireless,-59,
+4/16/2026 11:21,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,25.45,0,2,7.6,Steel,2,0.45,Wireless,-59,
+4/16/2026 11:22,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,21.09,0,3,7.6,Steel,2,0.45,Wireless,-59,
+4/16/2026 11:23,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,20.66,0,4,7.6,Steel,2,0.45,Wireless,-59,
+4/16/2026 11:24,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,30.18,0,5,7.6,Steel,2,0.45,Wireless,-59,
+4/16/2026 11:24,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,32.76,0,6,7.6,Steel,2,0.45,Wireless,-59,
+4/16/2026 11:25,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,25.99,0,7,7.6,Steel,2,0.45,Wireless,-59,
+4/16/2026 11:26,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,31.09,0,8,7.6,Steel,2,0.45,Wireless,-59,
+4/16/2026 11:27,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,28.04,0,9,7.6,Steel,2,0.45,Wireless,-59,
+4/16/2026 11:27,Uni-Wall,4.5m Uni Wall 2 Steel 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,23.27,0,10,7.6,Steel,2,0.45,Wireless,-59,
+4/16/2026 11:31,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,23.76,0,1,7.6,Steel,2,0.45,Wireless,-68,-79
+4/16/2026 11:32,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,31.33,0,2,7.6,Steel,2,0.45,Wireless,-68,-79
+4/16/2026 11:33,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,21.21,0,3,7.6,Steel,2,0.45,Wireless,-68,-79
+4/16/2026 11:33,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,31.5,0,4,7.6,Steel,2,0.45,Wireless,-68,-79
+4/16/2026 11:34,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,4.59,0,5,7.6,Steel,2,0.45,Wireless,-68,-79
+4/16/2026 11:35,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,26.73,0,6,7.6,Steel,2,0.45,Wireless,-68,-79
+4/16/2026 11:36,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,22,0,7,7.6,Steel,2,0.45,Wireless,-68,-79
+4/16/2026 11:36,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,19.52,0,8,7.6,Steel,2,0.45,Wireless,-68,-79
+4/16/2026 11:37,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,22.03,0,9,7.6,Steel,2,0.45,Wireless,-68,-79
+4/16/2026 11:38,Uni-Wall,4.5m Uni Wall 2 Steel MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,8.66,0,10,7.6,Steel,2,0.45,Wireless,-68,-79
+3/23/2026 17:36,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,665.36,0,1,6,,0,0,Wireless,-58,
+3/23/2026 17:37,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,669.44,0,2,6,,0,0,Wireless,-58,
+3/23/2026 17:37,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,690.12,0,3,6,,0,0,Wireless,-58,
+3/23/2026 17:38,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,690.39,0,4,6,,0,0,Wireless,-58,
+3/23/2026 17:39,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,694.13,0,5,6,,0,0,Wireless,-58,
+3/23/2026 17:39,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,670.1,0,6,6,,0,0,Wireless,-58,
+3/23/2026 17:40,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,678.61,0,7,6,,0,0,Wireless,-58,
+3/23/2026 17:41,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,696.14,0,8,6,,0,0,Wireless,-58,
+3/23/2026 17:41,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,692.28,0,9,6,,0,0,Wireless,-58,
+3/23/2026 17:42,Uni-LOS,6m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,696.09,0,10,6,,0,0,Wireless,-58,
+3/23/2026 17:47,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,661.92,0,1,6,,0,0,Wireless,-58,
+3/23/2026 17:47,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,651.1,0,2,6,,0,0,Wireless,-58,
+3/23/2026 17:48,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,650.51,0,3,6,,0,0,Wireless,-58,
+3/23/2026 17:49,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,653.64,0,4,6,,0,0,Wireless,-58,
+3/23/2026 17:49,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,633.3,0,5,6,,0,0,Wireless,-58,
+3/23/2026 17:50,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,657.76,0,6,6,,0,0,Wireless,-58,
+3/23/2026 17:50,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,656.82,0,7,6,,0,0,Wireless,-58,
+3/23/2026 17:51,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,668.7,0,8,6,,0,0,Wireless,-58,
+3/23/2026 17:52,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,666.22,0,9,6,,0,0,Wireless,-58,
+3/23/2026 17:52,Uni-LOS,6m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,683.79,0,10,6,,0,0,Wireless,-58,
+3/23/2026 17:56,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,36.83,0,1,6,,0,0,Wireless,-44,
+3/23/2026 17:56,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,39.44,0,2,6,,0,0,Wireless,-44,
+3/23/2026 17:57,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,41.58,0,3,6,,0,0,Wireless,-44,
+3/23/2026 17:58,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,39.16,0,4,6,,0,0,Wireless,-44,
+3/23/2026 17:58,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,31.98,0,5,6,,0,0,Wireless,-44,
+3/23/2026 17:59,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,31.48,0,6,6,,0,0,Wireless,-44,
+3/23/2026 17:59,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,36.56,0,7,6,,0,0,Wireless,-44,
+3/23/2026 18:00,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,43.48,0,8,6,,0,0,Wireless,-44,
+3/23/2026 18:01,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,43.25,0,9,6,,0,0,Wireless,-44,
+3/23/2026 18:01,Uni-LOS,6m Uni LOS 2.4GHz Wireless,Standard,6,2.4GHz,20,344,,,,,1,0,7,,,,4,41.44,0,10,6,,0,0,Wireless,-44,
+3/23/2026 18:06,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,159.22,0,1,6,,0,0,Wireless,-48,-60
+3/23/2026 18:06,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,55.57,0,2,6,,0,0,Wireless,-48,-60
+3/23/2026 18:07,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,29.77,0,3,6,,0,0,Wireless,-48,-60
+3/23/2026 18:08,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,96.52,0,4,6,,0,0,Wireless,-48,-60
+3/23/2026 18:08,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,195.21,0,5,6,,0,0,Wireless,-48,-60
+3/23/2026 18:09,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,83.73,0,6,6,,0,0,Wireless,-48,-60
+3/23/2026 18:09,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,181.52,0,7,6,,0,0,Wireless,-48,-60
+3/23/2026 18:10,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,92.83,0,8,6,,0,0,Wireless,-48,-60
+3/23/2026 18:11,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,223.47,0,9,6,,0,0,Wireless,-48,-60
+3/23/2026 18:11,Uni-LOS,6m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,7,0,0,7,8,42,0,10,6,,0,0,Wireless,-48,-60
+4/15/2026 14:00,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,613.47,0,1,6,Glass,2,0.01,Wireless,-55,
+4/15/2026 14:00,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,594.46,0,2,6,Glass,2,0.01,Wireless,-55,
+4/15/2026 14:01,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,617.98,0,3,6,Glass,2,0.01,Wireless,-55,
+4/15/2026 14:02,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,644.18,0,4,6,Glass,2,0.01,Wireless,-55,
+4/15/2026 14:03,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,591.59,0,5,6,Glass,2,0.01,Wireless,-55,
+4/15/2026 14:03,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,591.59,0,6,6,Glass,2,0.01,Wireless,-55,
+4/15/2026 14:04,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,645.86,0,7,6,Glass,2,0.01,Wireless,-55,
+4/15/2026 14:05,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,621.57,0,8,6,Glass,2,0.01,Wireless,-55,
+4/15/2026 14:06,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,584.55,0,9,6,Glass,2,0.01,Wireless,-55,
+4/15/2026 14:06,Uni-Wall,4.5m Uni Wall 2 Glass 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,8,,,,4,614.84,0,10,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:10,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,533.4,0,1,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:11,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,533.33,0,2,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:12,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,552.66,0,3,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:12,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,493.81,0,4,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:13,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,498.95,0,5,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:14,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,530.7,0,6,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:15,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,518.4,0,7,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:15,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,554.63,0,8,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:16,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,521.26,0,9,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:17,Uni-Wall,4.5m Uni Wall 2 Glass 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,8,,,,4,507.49,0,10,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:21,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,73.11,0,1,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:21,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,55.5,0,2,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:22,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,58.55,0,3,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:23,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,43.01,0,4,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:24,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,52.18,0,5,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:24,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,59,0,6,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:25,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,45.86,0,7,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:26,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,61.76,0,8,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:27,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,51.59,0,9,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:27,Uni-Wall,4.5m Uni Wall 2 Glass 2.4GHz Wireless,Standard,8,2.4GHz,20,344,,,,,0,4,10,,,,4,54.81,0,10,6,Glass,2,0.01,Wireless,-50,
+4/15/2026 14:31,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,7.08,0,1,6,Glass,2,0.01,Wireless,-48,-55
+4/15/2026 14:32,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,13.45,0,2,6,Glass,2,0.01,Wireless,-48,-55
+4/15/2026 14:33,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,8.61,0,3,6,Glass,2,0.01,Wireless,-48,-55
+4/15/2026 14:33,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,5.9,0,4,6,Glass,2,0.01,Wireless,-48,-55
+4/15/2026 14:34,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,10.78,0,5,6,Glass,2,0.01,Wireless,-48,-55
+4/15/2026 14:35,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,5.48,0,6,6,Glass,2,0.01,Wireless,-48,-55
+4/15/2026 14:36,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,9.19,0,7,6,Glass,2,0.01,Wireless,-48,-55
+4/15/2026 14:36,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,3.56,0,8,6,Glass,2,0.01,Wireless,-48,-55
+4/15/2026 14:37,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,5.2,0,9,6,Glass,2,0.01,Wireless,-48,-55
+4/15/2026 14:38,Uni-Wall,4.5m Uni Wall 2 Glass MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,8,0,0,8,8,9.16,0,10,6,Glass,2,0.01,Wireless,-48,-55
+3/23/2026 18:20,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,667.27,0,1,12,,0,0,Wireless,-46,
+3/23/2026 18:21,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,728.23,0,2,12,,0,0,Wireless,-46,
+3/23/2026 18:21,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,740.44,0,3,12,,0,0,Wireless,-46,
+3/23/2026 18:22,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,720.09,0,4,12,,0,0,Wireless,-46,
+3/23/2026 18:22,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,746.14,0,5,12,,0,0,Wireless,-46,
+3/23/2026 18:23,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,711.89,0,6,12,,0,0,Wireless,-46,
+3/23/2026 18:24,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,731.89,0,7,12,,0,0,Wireless,-46,
+3/23/2026 18:24,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,744.48,0,8,12,,0,0,Wireless,-46,
+3/23/2026 18:25,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,731.9,0,9,12,,0,0,Wireless,-46,
+3/23/2026 18:25,Uni-LOS,12m Uni LOS 6GHz Wireless,Standard,5,6GHz,160,2882,,,,,0,0,0,,,,4,733.14,0,10,12,,0,0,Wireless,-46,
+3/23/2026 18:45,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,574.68,0,1,12,,0,0,Wireless,-57,
+3/23/2026 18:46,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,571.94,0,2,12,,0,0,Wireless,-57,
+3/23/2026 18:47,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,583.56,0,3,12,,0,0,Wireless,-57,
+3/23/2026 18:47,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,557.41,0,4,12,,0,0,Wireless,-57,
+3/23/2026 18:48,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,594.65,0,5,12,,0,0,Wireless,-57,
+3/23/2026 18:48,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,606.25,0,6,12,,0,0,Wireless,-57,
+3/23/2026 18:49,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,552.71,0,7,12,,0,0,Wireless,-57,
+3/23/2026 18:50,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,598.89,0,8,12,,0,0,Wireless,-57,
+3/23/2026 18:50,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,560,0,9,12,,0,0,Wireless,-57,
+3/23/2026 18:51,Uni-LOS,12m Uni LOS 5GHz Wireless,Standard,40,5GHz,160,2882,,,,,0,0,6,,,,4,563.03,0,10,12,,0,0,Wireless,-57,
+3/23/2026 19:14,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,65.37,0,1,12,,0,0,Wireless,-67,
+3/23/2026 19:14,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,66.69,0,2,12,,0,0,Wireless,-67,
+3/23/2026 19:15,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,73.23,0,3,12,,0,0,Wireless,-67,
+3/23/2026 19:16,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,77.1,0,4,12,,0,0,Wireless,-67,
+3/23/2026 19:16,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,70.63,0,5,12,,0,0,Wireless,-67,
+3/23/2026 19:17,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,77.03,0,6,12,,0,0,Wireless,-67,
+3/23/2026 19:17,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,77.02,0,7,12,,0,0,Wireless,-67,
+3/23/2026 19:18,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,78.63,0,8,12,,0,0,Wireless,-67,
+3/23/2026 19:19,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,72.69,0,9,12,,0,0,Wireless,-67,
+3/23/2026 19:19,Uni-LOS,12m Uni LOS 2.4GHz Wireless,Standard,9,2.4GHz,20,344,,,,,0,0,5,,,,4,69.31,0,10,12,,0,0,Wireless,-67,
+3/23/2026 19:36,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,274.82,0,1,12,,0,0,Wireless,-62,-67
+3/23/2026 19:37,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,186.73,0,2,12,,0,0,Wireless,-62,-67
+3/23/2026 19:37,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,289.4,0,3,12,,0,0,Wireless,-62,-67
+3/23/2026 19:38,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,278.64,0,4,12,,0,0,Wireless,-62,-67
+3/23/2026 19:38,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,333.92,0,5,12,,0,0,Wireless,-62,-67
+3/23/2026 19:39,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,303.55,0,6,12,,0,0,Wireless,-62,-67
+3/23/2026 19:40,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,245.43,0,7,12,,0,0,Wireless,-62,-67
+3/23/2026 19:40,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,261.38,0,8,12,,0,0,Wireless,-62,-67
+3/23/2026 19:41,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,319.6,0,9,12,,0,0,Wireless,-62,-67
+3/23/2026 19:41,Uni-LOS,12m Uni LOS MLO Wireless,MLO,157,5GHz,80,1441,5,6GHz,160,1441,0,1,6,0,0,6,8,333.5,0,10,12,,0,0,Wireless,-62,-67

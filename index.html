@@ -494,9 +494,9 @@ h2 .num{
   margin-top:6px;
 }
 
-/* RSSI visibility toggle (unchanged behaviour) */
-.detail-stat.rssi{display:none}
-body.show-rssi .detail-stat.rssi{display:block}
+/* RSSI stats — shown by default now that data is in. The `.rssi` class
+   remains so it could be selectively styled or hidden later if needed. */
+.detail-stat.rssi{ /* no longer hidden */ }
 
 /* Honour reduced-motion preferences */
 @media (prefers-reduced-motion: reduce){
@@ -633,7 +633,7 @@ footer a:hover{border-color:var(--accent)}
           <li><strong>Tag chips</strong> mark non-default settings: <code>MLO</code> for Multi-Link Operation, <code>Wired</code> for runs where the iperf3 server is cabled to the router (one wireless hop, isolating the Wi-Fi link), plus channel width and stream count. Without the <code>Wired</code> chip the server is also wireless — two endpoints sharing one radio, halving the available airtime.</li>
           <li><strong>The bar</strong> shows mean throughput scaled against the maximum measured across the whole study (~1500 Mbps). Red bars indicate sub-100 Mbps results; green bars indicate sub-gigabit-and-above.</li>
           <li><strong>The number on the right</strong> is the mean iperf3 throughput in Mbps across all runs of that scenario.</li>
-          <li><strong>Click any row</strong> to expand and reveal standard deviation, min/max range, PHY link rate, PHY efficiency, co-channel and adjacent-channel interference, neighbour AP count, and — where applicable — MLO secondary-link details.</li>
+          <li><strong>Click any row</strong> to expand and reveal standard deviation, min/max range, PHY link rate, PHY efficiency, co-channel and adjacent-channel interference, neighbour AP count, primary and secondary RSSI in dBm where measured, and — for MLO — secondary-link details.</li>
         </ol>
       </div>
     </div>
@@ -870,7 +870,9 @@ function render(){
 
     let rssiBlock = '';
     if (s.primaryRSSI !== null && s.primaryRSSI !== undefined) {
-      const stdPart = s.primaryRSSIstd !== null && s.primaryRSSIstd !== undefined
+      // Only show ±std when there's actual variation. Most scenarios captured
+      // RSSI once rather than per-run, so std is 0 and the ± would be noise.
+      const stdPart = (s.primaryRSSIstd !== null && s.primaryRSSIstd !== undefined && s.primaryRSSIstd > 0)
         ? ` <small>±${s.primaryRSSIstd}</small>` : '';
       rssiBlock += `<div class="detail-stat rssi"><div class="v">${s.primaryRSSI}<small>dBm</small>${stdPart}</div><div class="l">Primary RSSI</div></div>`;
     }

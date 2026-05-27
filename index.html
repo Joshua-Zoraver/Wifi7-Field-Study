@@ -304,7 +304,62 @@ h2 .num{
 }
 
 /* scenarios table */
-.scenario-grid{display:flex;flex-direction:column;gap:0;border:1px solid var(--rule)}
+.scenario-grid{
+  display:flex;
+  flex-direction:column;
+  gap:0;
+  border:1px solid var(--rule);
+
+  /* Scrollable container */
+  max-height:700px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  scrollbar-width:thin;
+}
+
+/* Custom scrollbar */
+.scenario-grid::-webkit-scrollbar{
+  width:10px;
+}
+
+.scenario-grid::-webkit-scrollbar-track{
+  background:var(--paper-dark);
+}
+
+.scenario-grid::-webkit-scrollbar-thumb{
+  background:var(--rule);
+  border-radius:6px;
+}
+
+.scenario-grid::-webkit-scrollbar-thumb:hover{
+  background:var(--ink-fade);
+}
+
+/* Scroll indicator */
+.scroll-indicator{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  margin-bottom:12px;
+  padding:10px 14px;
+  border:1px dashed var(--accent-soft);
+  background:#fef3e0;
+  color:var(--accent);
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+}
+
+.scroll-indicator .arrow{
+  animation:bounce 1.4s infinite;
+}
+
+@keyframes bounce{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(3px)}
+}
 .scenario-row{
   display:grid;
   grid-template-columns:1.4fr 130px 130px;
@@ -564,7 +619,14 @@ footer a:hover{border-color:var(--accent)}
       <span class="count-badge" id="countBadge"></span>
     </div>
 
-    <div class="scenario-grid" id="scenarioGrid"></div>
+    
+<div class="scroll-indicator">
+  <span>Scroll to explore all scenarios</span>
+  <span class="arrow">↓</span>
+</div>
+
+<div class="scenario-grid" id="scenarioGrid"></div>
+
   </section>
 
   <!-- ========================= SUMMARY ========================= -->
@@ -736,11 +798,21 @@ function render(){
 
     row.addEventListener('click', () => {
       const wasOpen = detail.classList.contains('open');
+
       grid.querySelectorAll('.detail.open').forEach(d => d.classList.remove('open'));
       grid.querySelectorAll('.scenario-row.expanded').forEach(r => r.classList.remove('expanded'));
+
       if (!wasOpen){
         detail.classList.add('open');
         row.classList.add('expanded');
+
+        // Ensure expanded content stays visible inside scroll container
+        setTimeout(() => {
+          detail.scrollIntoView({
+            behavior:'smooth',
+            block:'nearest'
+          });
+        }, 50);
       }
     });
   });

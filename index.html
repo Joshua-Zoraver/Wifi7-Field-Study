@@ -570,7 +570,7 @@ footer a:hover{border-color:var(--accent)}
 
   <!-- =========================== HERO =========================== -->
   <div class="hero" id="top">
-    <div class="eyebrow">Industrial Project · Bachelor of Engineering · 2026</div>
+    <div class="eyebrow">Capstone Project · Bachelor of Engineering · 2026</div>
     <span class="wip-badge">⚠ Work in Progress</span>
     <h1 class="title">Is Wi&#8209;Fi&nbsp;7 as <em>fast</em> as they say?</h1>
     <p class="lead">A performance study of IEEE 802.11be using field measurements. 779 test runs across 76 scenarios in real homes and offices, measured with off-the-shelf consumer hardware in the conditions people actually use it.</p>
@@ -630,7 +630,7 @@ footer a:hover{border-color:var(--accent)}
         <ol>
           <li><strong>Scenario name</strong> tells you the location, what's in the path, the band, and the distance — e.g. <code>Home-1×Plasterboard 5GHz 8m</code> means 8 metres from the router through one plasterboard wall.</li>
           <li><strong>Italic description</strong> below the name gives a plain-English sketch of where the router and client sat and what the signal had to pass through.</li>
-          <li><strong>Tag chips</strong> mark non-default settings: <code>MLO</code> for Multi-Link Operation, <code>Wired</code> for the backhaul connection, plus channel width and stream count.</li>
+          <li><strong>Tag chips</strong> mark non-default settings: <code>MLO</code> for Multi-Link Operation, <code>Wired</code> for runs where the iperf3 server is cabled to the router (one wireless hop, isolating the Wi-Fi link), plus channel width and stream count. Without the <code>Wired</code> chip the server is also wireless — two endpoints sharing one radio, halving the available airtime.</li>
           <li><strong>The bar</strong> shows mean throughput scaled against the maximum measured across the whole study (~1500 Mbps). Red bars indicate sub-100 Mbps results; green bars indicate sub-gigabit-and-above.</li>
           <li><strong>The number on the right</strong> is the mean iperf3 throughput in Mbps across all runs of that scenario.</li>
           <li><strong>Click any row</strong> to expand and reveal standard deviation, min/max range, PHY link rate, PHY efficiency, co-channel and adjacent-channel interference, neighbour AP count, and — where applicable — MLO secondary-link details.</li>
@@ -682,7 +682,7 @@ footer a:hover{border-color:var(--accent)}
 
 <footer>
   <div class="wrap">
-    <span>BE Industrial · 2026 · Work in progress</span>
+    <span>BE Capstone · 2026 · Work in progress</span>
     <span>Full report &amp; findings · coming soon</span>
   </div>
 </footer>
@@ -755,6 +755,68 @@ function applyFilters(){
   render();
 }
 
+/* ======================================================================
+   AUTO-GENERATED SCENARIO DESCRIPTIONS
+   ----------------------------------------------------------------------
+   Each row gets a one-sentence plain-English description built from the
+   structured fields. If a scenario in data.json already has a
+   `description` field, that wins — the generator only fills gaps.
+
+   The goal isn't to repeat the title in prose, it's to add the
+   interpretation that the title can't carry: what kind of test this is,
+   what's notable about the combination, what the band character is.
+   ====================================================================== */
+function generateDescription(s){
+  const isUni  = s.env.startsWith('Uni');
+  const isWall = s.env.endsWith('Wall');
+  const place  = isUni ? 'university lab' : 'home';
+  const d      = s.distance;
+
+  // Distance buckets tuned to the actual data: 1.5 / 2.71-4.5 / 6 / 12
+  const rangeWord =
+    d <= 2 ? 'Close-range'   :
+    d <= 5 ? 'Mid-range'     :
+    d <= 8 ? 'Long-range'    :
+             'Extreme-range';
+
+  // Compact band labels — short context only; full notes live in Background
+  const bandLabel = {
+    '2.4GHz': '2.4GHz (the legacy band)',
+    '5GHz'  : '5GHz',
+    '6GHz'  : '6GHz (new in Wi-Fi 7)',
+  }[s.band] || s.band;
+
+  // Mode tail
+  const modeTail = s.mode === 'MLO'
+    ? ` MLO bonds it with the ${s.mloSecondaryBand} band.`
+    : '';
+
+  // The wired/wireless distinction is the iperf3 server's connection,
+  // not the client's. Both runs measure how Wi-Fi 7 carries the client's
+  // traffic — but in 'Wireless' the server is also on Wi-Fi, so the
+  // server's traffic and the client's traffic share the same radio.
+  if (s.conn === 'Wired'){
+    return `Single-hop test: iperf3 server is wired to the router, client connects over Wi-Fi. Measures the wireless link in isolation.${modeTail}`;
+  }
+
+  // Rhetorical flourish for the worst-case combo
+  const worstCase = (isWall && s.material === 'Steel' && s.band === '6GHz')
+    ? ' The hardest material/band combination in the study.'
+    : '';
+
+  // The path phrase
+  let path;
+  if (!isWall){
+    path = `line-of-sight, ${d}m from the router`;
+  } else if (s.walls === 1){
+    path = `${d}m from the router through one ${s.material.toLowerCase()} wall`;
+  } else {
+    path = `${d}m from the router through two ${s.material.toLowerCase()} walls`;
+  }
+
+  return `${rangeWord} run in the ${place}, ${path}, on ${bandLabel}.${modeTail}${worstCase}`;
+}
+
 function render(){
   const grid = document.getElementById('scenarioGrid');
   grid.innerHTML = '';
@@ -781,10 +843,10 @@ function render(){
     if (s.conn === 'Wired') tags.push('<span class="tag-chip wired">Wired</span>');
     tags.push(`<span class="tag-chip">${s.width}MHz · ${s.streams}-stream</span>`);
 
-    // Description line
-    const descHTML = s.description
-      ? `<div class="scenario-desc">${s.description}</div>`
-      : `<div class="scenario-desc placeholder">description pending</div>`;
+    // Description line — prefer a hand-written description from data.json,
+    // otherwise fall back to the auto-generator above.
+    const descText = s.description || generateDescription(s);
+    const descHTML = `<div class="scenario-desc">${descText}</div>`;
 
     row.innerHTML = `
       <div class="scenario-meta">
@@ -839,7 +901,7 @@ function render(){
     row.addEventListener('click', () => {
       const wasOpen = detail.classList.contains('open');
 
-      // Close any other open rows
+      // Close any *other* open rows. CSS handles the close animation.
       grid.querySelectorAll('.detail.open').forEach(d => {
         if (d !== detail) d.classList.remove('open');
       });

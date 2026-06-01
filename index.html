@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wi-Fi 7 Field Study: Is Wi-Fi 7 as fast as they say?</title>
+<title>Wi-Fi 7 Field Study — Is Wi-Fi 7 as fast as they say?</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,300;9..144,0,400;9..144,0,500;9..144,0,600;9..144,0,800;9..144,1,400;9..144,1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -484,84 +484,6 @@ h2 .num{
   border-left:2px solid var(--accent);
   padding-left:12px;
 }
-
-/* info tooltip */
-.detail-stat{
-  position:relative;
-}
-
-.info-btn{
-  position:absolute;
-  top:-2px;
-  right:-2px;
-  width:18px;
-  height:18px;
-  border-radius:50%;
-  border:1px solid var(--rule);
-  background:var(--paper);
-  color:var(--ink-fade);
-  font-family:'JetBrains Mono',monospace;
-  font-size:10px;
-  line-height:1;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  cursor:pointer;
-  transition:
-    background .15s,
-    border-color .15s,
-    color .15s,
-    transform .15s;
-  z-index:2;
-}
-
-.info-btn:hover{
-  background:#fef3e0;
-  border-color:var(--accent-soft);
-  color:var(--accent);
-  transform:scale(1.05);
-}
-
-.info-tooltip{
-  position:absolute;
-  top:26px;
-  right:0;
-  width:240px;
-  padding:12px 14px;
-  background:var(--paper);
-  border:1px solid var(--rule);
-  box-shadow:0 8px 24px rgba(0,0,0,0.08);
-  font-size:12px;
-  line-height:1.5;
-  color:var(--ink-soft);
-  z-index:100;
-  opacity:0;
-  pointer-events:none;
-  transform:translateY(-4px);
-  transition:
-    opacity .18s ease,
-    transform .18s ease;
-}
-
-.info-tooltip strong{
-  color:var(--ink);
-  font-weight:600;
-}
-
-.detail-stat.show-tooltip .info-tooltip{
-  opacity:1;
-  pointer-events:auto;
-  transform:translateY(0);
-}
-
-@media(max-width:640px){
-  .info-tooltip{
-    width:200px;
-    right:auto;
-    left:0;
-  }
-}
-
 .detail-stat .v{
   font-family:'Fraunces',serif;font-size:22px;font-weight:500;line-height:1;
 }
@@ -614,6 +536,64 @@ h2 .num{
   margin:0 auto;
 }
 
+/* Tool CTA — sits inside the Summary section */
+.tool-cta{
+  margin-top:32px;
+  padding:28px 32px;
+  border:1px solid var(--rule);
+  background:var(--paper);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  flex-wrap:wrap;
+}
+.tool-cta-text h4{
+  font-family:'Fraunces',serif;
+  font-weight:500;
+  font-size:20px;
+  letter-spacing:-0.01em;
+  margin-bottom:6px;
+  color:var(--ink);
+}
+.tool-cta-text p{
+  font-size:14px;
+  color:var(--ink-soft);
+  max-width:520px;
+  line-height:1.5;
+}
+.tool-cta-button{
+  font-family:'JetBrains Mono',monospace;
+  font-size:12px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--paper);
+  background:var(--accent);
+  text-decoration:none;
+  padding:14px 22px;
+  border:1px solid var(--accent);
+  transition:background .15s, transform .1s;
+  white-space:nowrap;
+}
+.tool-cta-button:hover{ background:#9a3608; }
+.tool-cta-button:active{ transform:translateY(1px); }
+.tool-cta-button .arrow{
+  display:inline-block;
+  margin-left:8px;
+  transition:transform .15s;
+}
+.tool-cta-button:hover .arrow{ transform:translateX(3px); }
+
+/* Tool link in the sticky nav — same style as section links but with a small icon hint */
+nav.sectionnav a.nav-external{
+  border-color:var(--accent-soft);
+  color:var(--accent);
+}
+nav.sectionnav a.nav-external::after{
+  content:" ↗";
+  font-size:10px;
+}
+
 /* footer */
 footer{
   padding:32px 0 48px;
@@ -640,6 +620,7 @@ footer a:hover{border-color:var(--accent)}
       <a href="#background" data-section="background">Background</a>
       <a href="#scenarios" data-section="scenarios">Scenarios</a>
       <a href="#summary" data-section="summary">Summary</a>
+      <a href="./tool/" class="nav-external">Predictor tool</a>
     </nav>
   </div>
 </header>
@@ -753,6 +734,16 @@ footer a:hover{border-color:var(--accent)}
       <span class="badge">⚠ Coming Soon</span>
       <h3>Analysis in progress</h3>
       <p>Cross-scenario findings, degradation curves, and the answer to the title question are still being prepared. Check back once the analysis is complete, or browse the raw scenario data above in the meantime.</p>
+    </div>
+
+    <div class="tool-cta">
+      <div class="tool-cta-text">
+        <h4>Try the throughput predictor</h4>
+        <p>While the analysis is being finalised, you can already explore an interactive tool that predicts Wi-Fi 7 throughput for any layout you draw. Place a router, drop a client pin, sketch in walls — the model returns an expected Mbps in real time. Trained on this study's 779 measurements.</p>
+      </div>
+      <a class="tool-cta-button" href="./tool/">
+        Open the tool <span class="arrow">→</span>
+      </a>
     </div>
   </section>
 
@@ -961,22 +952,10 @@ function render(){
     detail.innerHTML = `
       <div class="detail-inner">
         <div class="detail-grid">
-          <div class="detail-stat">
-            <button class="info-btn">i</button>
-            <div class="info-tooltip"><strong>Mean Throughput</strong><br><br>The average measured throughput across all runs. Higher is better.</div>
-            <div class="v">${s.avg.toFixed(1)}<small>Mbps</small></div><div class="l">Mean</div>
-          </div>
-          <div class="detail-stat">
-            <button class="info-btn">i</button>
-            <div class="info-tooltip"><strong>Standard Deviation</strong><br><br>Shows how consistent the runs were. Lower values mean more stable performance.</div>
-            <div class="v">${s.std.toFixed(1)}<small>σ</small></div><div class="l">Std-dev</div>
-          </div>
+          <div class="detail-stat"><div class="v">${s.avg.toFixed(1)}<small>Mbps</small></div><div class="l">Mean</div></div>
+          <div class="detail-stat"><div class="v">${s.std.toFixed(1)}<small>σ</small></div><div class="l">Std-dev</div></div>
           <div class="detail-stat"><div class="v">${s.min.toFixed(0)} – ${s.max.toFixed(0)}</div><div class="l">Range (Mbps)</div></div>
-          <div class="detail-stat">
-            <button class="info-btn">i</button>
-            <div class="info-tooltip"><strong>PHY Link Rate</strong><br><br>The negotiated wireless rate between the client and router. Real throughput is always lower due to overhead.</div>
-            <div class="v">${s.linkRate.toFixed(0)}<small>Mbps</small></div><div class="l">Link Rate (PHY)</div>
-          </div>
+          <div class="detail-stat"><div class="v">${s.linkRate.toFixed(0)}<small>Mbps</small></div><div class="l">Link Rate (PHY)</div></div>
           <div class="detail-stat"><div class="v">${efficiency}<small>%</small></div><div class="l">PHY Efficiency</div></div>
           <div class="detail-stat"><div class="v">${s.cci.toFixed(0)} / ${s.aci.toFixed(0)}</div><div class="l">CCI / ACI</div></div>
           <div class="detail-stat"><div class="v">${s.neighbors}</div><div class="l">Neighbour APs</div></div>
@@ -990,8 +969,7 @@ function render(){
     grid.appendChild(row);
     grid.appendChild(detail);
 
-    row.addEventListener('click', (event) => {
-      if (event.target.closest('.info-btn')) return;
+    row.addEventListener('click', () => {
       const wasOpen = detail.classList.contains('open');
 
       // Close any *other* open rows. CSS handles the close animation.
@@ -1046,30 +1024,6 @@ function updateActiveNav(){
 }
 window.addEventListener('scroll', updateActiveNav, {passive:true});
 updateActiveNav();
-
-
-// tooltip toggles
-document.addEventListener('click', (e) => {
-  const btn = e.target.closest('.info-btn');
-
-  if (!btn){
-    document.querySelectorAll('.detail-stat.show-tooltip')
-      .forEach(el => el.classList.remove('show-tooltip'));
-    return;
-  }
-
-  e.stopPropagation();
-
-  const stat = btn.closest('.detail-stat');
-
-  document.querySelectorAll('.detail-stat.show-tooltip')
-    .forEach(el => {
-      if (el !== stat) el.classList.remove('show-tooltip');
-    });
-
-  stat.classList.toggle('show-tooltip');
-});
-
 
 loadData();
 </script>

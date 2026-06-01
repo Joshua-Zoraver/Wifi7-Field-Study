@@ -454,10 +454,10 @@
       "hasMLO": false,
       "mloSecondaryBand": null,
       "mloSecondaryRate": null,
-      "primaryRSSI": null,
-      "primaryRSSIstd": null,
+      "primaryRSSI": -67.0,
+      "primaryRSSIstd": 0.0,
       "secondaryRSSI": null,
-      "rssiRuns": 0
+      "rssiRuns": 10
     },
     {
       "env": "Home-Wall",
@@ -481,10 +481,10 @@
       "hasMLO": false,
       "mloSecondaryBand": null,
       "mloSecondaryRate": null,
-      "primaryRSSI": null,
-      "primaryRSSIstd": null,
+      "primaryRSSI": -55.0,
+      "primaryRSSIstd": 0.0,
       "secondaryRSSI": null,
-      "rssiRuns": 0
+      "rssiRuns": 10
     },
     {
       "env": "Home-Wall",
@@ -508,10 +508,10 @@
       "hasMLO": false,
       "mloSecondaryBand": null,
       "mloSecondaryRate": null,
-      "primaryRSSI": null,
-      "primaryRSSIstd": null,
+      "primaryRSSI": -56.0,
+      "primaryRSSIstd": 0.0,
       "secondaryRSSI": null,
-      "rssiRuns": 0
+      "rssiRuns": 10
     },
     {
       "env": "Home-Wall",
@@ -535,10 +535,10 @@
       "hasMLO": true,
       "mloSecondaryBand": "5GHz",
       "mloSecondaryRate": 720.5,
-      "primaryRSSI": null,
-      "primaryRSSIstd": null,
-      "secondaryRSSI": null,
-      "rssiRuns": 0
+      "primaryRSSI": -58.0,
+      "primaryRSSIstd": 0.0,
+      "secondaryRSSI": -56.0,
+      "rssiRuns": 10
     },
     {
       "env": "Home-LOS",
@@ -1372,10 +1372,10 @@
       "hasMLO": false,
       "mloSecondaryBand": null,
       "mloSecondaryRate": null,
-      "primaryRSSI": null,
-      "primaryRSSIstd": null,
+      "primaryRSSI": -56.0,
+      "primaryRSSIstd": 0.0,
       "secondaryRSSI": null,
-      "rssiRuns": 0
+      "rssiRuns": 10
     },
     {
       "env": "Home-LOS",
@@ -1399,10 +1399,10 @@
       "hasMLO": false,
       "mloSecondaryBand": null,
       "mloSecondaryRate": null,
-      "primaryRSSI": null,
-      "primaryRSSIstd": null,
+      "primaryRSSI": -52.0,
+      "primaryRSSIstd": 0.0,
       "secondaryRSSI": null,
-      "rssiRuns": 0
+      "rssiRuns": 10
     },
     {
       "env": "Home-LOS",
@@ -1426,10 +1426,10 @@
       "hasMLO": false,
       "mloSecondaryBand": null,
       "mloSecondaryRate": null,
-      "primaryRSSI": null,
-      "primaryRSSIstd": null,
+      "primaryRSSI": -42.0,
+      "primaryRSSIstd": 0.0,
       "secondaryRSSI": null,
-      "rssiRuns": 0
+      "rssiRuns": 10
     },
     {
       "env": "Home-LOS",
@@ -1453,10 +1453,10 @@
       "hasMLO": true,
       "mloSecondaryBand": "6GHz",
       "mloSecondaryRate": 1441.0,
-      "primaryRSSI": null,
-      "primaryRSSIstd": null,
-      "secondaryRSSI": null,
-      "rssiRuns": 0
+      "primaryRSSI": -50.0,
+      "primaryRSSIstd": 0.0,
+      "secondaryRSSI": -57.0,
+      "rssiRuns": 10
     },
     {
       "env": "Uni-LOS",
